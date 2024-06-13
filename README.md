@@ -1,2 +1,2 @@
 # Proxima hardware
-Here you can find all KiCad files for Proxima Official Flight Computers
+Here you can find all CAD files for Proxima Official Flight Computers
