@@ -19552,6 +19552,16 @@
 		)
 		(uuid "36c24d15-1c14-49ef-830a-2fd2099b3d1d")
 	)
+	(text "CDMC6D28NP-4R7MC"
+		(exclude_from_sim no)
+		(at 99.06 370.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3855a118-54b6-4183-b40c-046914940ae2")
+	)
 	(text "MuCU (Main microcontroller Unit) Circuit"
 		(exclude_from_sim no)
 		(at 302.26 402.59 0)
@@ -24514,7 +24524,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "AMDLA4020S_4R7MT:IND_AMDLA4020S-4R7MT"
 			(at 86.36 374.65 0)
 			(effects
 				(font

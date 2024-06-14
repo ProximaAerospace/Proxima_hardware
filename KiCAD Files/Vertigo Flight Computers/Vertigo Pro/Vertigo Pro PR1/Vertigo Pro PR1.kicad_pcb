@@ -797,7 +797,6 @@
 			)
 		)
 		(property ki_fp_filters "D*DO?35*")
-		(path "/9aa8315e-f190-4a23-9a3c-784ce76ac327")
 		(sheetname "Root")
 		(sheetfile "Vertigo Pro PR1.kicad_sch")
 		(attr through_hole)
@@ -2353,7 +2352,7 @@
 	(footprint "Connector_AMASS:AMASS_XT30PW-F_1x02_P2.50mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "15441905-a6ed-415e-892f-e77066588072")
-		(at 144.75 174.75)
+		(at 181 125.15)
 		(descr "Connector XT30 Horizontal PCB Female, https://www.tme.eu/en/Document/ce4077e36b79046da520ca73227e15de/XT30PW%20SPEC.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "BT2"
@@ -6097,7 +6096,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 40 "Net-(D3-A)")
+			(net 42 "/STM_MOSI")
 			(pintype "passive")
 			(uuid "ba0e7c16-bfb7-494e-894a-80118a244005")
 		)
@@ -7683,7 +7682,6 @@
 			)
 		)
 		(property ki_fp_filters "D*DO?35*")
-		(path "/f6bd0cb7-5a2e-40f4-b409-1e2f1307a67c")
 		(sheetname "Root")
 		(sheetfile "Vertigo Pro PR1.kicad_sch")
 		(attr through_hole)
@@ -11782,6 +11780,205 @@
 			)
 		)
 	)
+	(footprint "AMDLA4020S_4R7MT:IND_AMDLA4020S-4R7MT"
+		(layer "F.Cu")
+		(uuid "78cb1646-e080-4df7-93fa-c77388e29947")
+		(at 144 125)
+		(property "Reference" "L1"
+			(at 0 -2.75 360)
+			(layer "F.SilkS")
+			(uuid "41ab280f-488d-4899-b701-7084369923c1")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "4.7uH "
+			(at 0.25 2.5 360)
+			(layer "F.Fab")
+			(uuid "3ce893cd-baf8-45ef-85b7-eade933ba25a")
+			(effects
+				(font
+					(size 0.64 0.64)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "AMDLA4020S_4R7MT:IND_AMDLA4020S-4R7MT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89b8f75e-b5e7-4fb7-993d-e67829bbc51b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "512a8345-8616-4b7a-97ec-d52fe21bf4e9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dc20f0e9-3268-44ca-b84f-bfbc2abbd9f7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
+		(path "/39870239-b624-483b-b564-4ccc81c2774f")
+		(sheetname "Root")
+		(sheetfile "Vertigo Pro PR1.kicad_sch")
+		(attr smd)
+		(fp_line
+			(start -2.2 -2)
+			(end 2.2 -2)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3c3d641f-b40a-4721-b9f7-2756a1f79a8d")
+		)
+		(fp_line
+			(start -2.2 2)
+			(end 2.2 2)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "45b02995-4503-474f-939e-88ab4bda7512")
+		)
+		(fp_line
+			(start -2.725 -2.25)
+			(end -2.725 2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3d43c6c4-5fd4-4633-b6d6-fbf7a4b82aa2")
+		)
+		(fp_line
+			(start -2.725 2.25)
+			(end 2.725 2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1b065b0b-d575-447d-a49f-a8fef68ed0a4")
+		)
+		(fp_line
+			(start 2.725 -2.25)
+			(end -2.725 -2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ee489d40-5749-4c95-ae5f-283d1fd76e0f")
+		)
+		(fp_line
+			(start 2.725 2.25)
+			(end 2.725 -2.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "413e1577-e62c-4cc8-a55a-6cd3389413fc")
+		)
+		(fp_line
+			(start -2.2 -2)
+			(end -2.2 2)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6b22c230-d5d4-4659-b27f-6438856a25af")
+		)
+		(fp_line
+			(start -2.2 -2)
+			(end 2.2 -2)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "0e61c075-387c-4452-a64e-1a218db658c2")
+		)
+		(fp_line
+			(start -2.2 2)
+			(end 2.2 2)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "8a704f2f-75b2-4f6f-98cf-ff260312d8be")
+		)
+		(fp_line
+			(start 2.2 -2)
+			(end 2.2 2)
+			(stroke
+				(width 0.127)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "e01901c5-53eb-4603-827f-49a952cd1313")
+		)
+		(pad "1" smd rect
+			(at -1.7775 0)
+			(size 1.395 2.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 44 "Net-(U2-SW)")
+			(pinfunction "1")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7d886d08-3420-4a36-9149-ea74317dd6a2")
+		)
+		(pad "2" smd rect
+			(at 1.7775 0)
+			(size 1.395 2.3)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(net 8 "+3.3V")
+			(pinfunction "2")
+			(pintype "passive")
+			(solder_mask_margin 0.102)
+			(uuid "7ec3f909-3e78-4f51-bb30-60cf8515229d")
+		)
+		(model "C:/Users/pawci/Documents/AMDLA4020S_4R7MT2/AMDLA4020S-4R7MT.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "Package_TO_SOT_SMD:TO-263-2"
 		(layer "F.Cu")
 		(uuid "7baaaa6a-f3a8-4d7a-abe1-ec0ff5d20be4")
@@ -12360,7 +12557,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 81 "Net-(D4-A)")
+			(net 43 "/STM_SCK")
 			(pintype "passive")
 			(uuid "1934a67a-32f1-4391-9962-1d3d38757850")
 		)
@@ -20303,7 +20500,6 @@
 			)
 		)
 		(property ki_fp_filters "D*DO?35*")
-		(path "/08197a34-b3b4-4620-a37e-1229dd3a9c2c")
 		(sheetname "Root")
 		(sheetfile "Vertigo Pro PR1.kicad_sch")
 		(attr through_hole)
@@ -25442,7 +25638,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 27 "Net-(D2-A)")
+			(net 19 "/STM_CS")
 			(pintype "passive")
 			(uuid "e40b4150-f923-4ff1-993b-2bd288a51e10")
 		)
