@@ -20600,7 +20600,7 @@
 	)
 	(text "Pyrotechnical Channels"
 		(exclude_from_sim no)
-		(at 48.26 121.92 0)
+		(at 44.45 121.92 0)
 		(effects
 			(font
 				(size 3.302 3.302)
@@ -20747,7 +20747,7 @@
 	)
 	(text "TuCU (Telemetry microcontroller Unit) Circuit"
 		(exclude_from_sim no)
-		(at 76.2 228.6 0)
+		(at 72.39 228.6 0)
 		(effects
 			(font
 				(size 3.302 3.302)
@@ -22433,7 +22433,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vertigo Pro KiCad Libraries:RUX0012A"
 			(at 537.21 223.52 0)
 			(effects
 				(font
@@ -25446,7 +25446,7 @@
 				)
 			)
 		)
-		(property "Footprint" "AMDLA4020S_4R7MT:IND_AMDLA4020S-4R7MT"
+		(property "Footprint" ""
 			(at 543.56 288.29 0)
 			(effects
 				(font
@@ -28568,7 +28568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ECLAMP8052P.TCT:FIL_ECLAMP8052P.TCT"
+		(property "Footprint" "Vertigo Pro KiCad Libraries:FIL_ECLAMP8052P.TCT"
 			(at 146.05 298.45 0)
 			(effects
 				(font
@@ -31158,7 +31158,7 @@
 				)
 			)
 		)
-		(property "Footprint" "24AA32A-I_MS:SOP65P490X110-8N"
+		(property "Footprint" ""
 			(at 414.02 167.64 0)
 			(effects
 				(font
@@ -31722,7 +31722,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "W25Q64FV"
 			(at 431.8 99.06 0)
 			(effects
 				(font
@@ -31730,7 +31730,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vertigo Pro KiCad Libraries:SON127P600X800X80-9N"
 			(at 431.8 107.95 0)
 			(effects
 				(font
@@ -33310,7 +33310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:QFN50P300X300X100-17N-D"
+		(property "Footprint" ""
 			(at 266.7 387.02 0)
 			(effects
 				(font
@@ -33903,7 +33903,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FFC2A32-24-T:GCT_FFC2A32-24-T"
+		(property "Footprint" ""
 			(at 236.22 198.12 0)
 			(effects
 				(font
@@ -35805,7 +35805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPS79133DBVR:SOT95P280X145-5N"
+		(property "Footprint" ""
 			(at 551.18 81.28 0)
 			(effects
 				(font
@@ -36990,7 +36990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:LSM6DSLTR"
+		(property "Footprint" ""
 			(at 377.19 389.56 0)
 			(effects
 				(font
@@ -37795,7 +37795,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:DPS310XTSA1"
+		(property "Footprint" "zswin:DPS310XTSA1"
 			(at 436.88 394.64 0)
 			(effects
 				(font
@@ -37953,7 +37953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "NEO-6M-GPS:XCVR_NEO-6M-GPS"
+		(property "Footprint" "Vertigo Pro KiCad Libraries:XCVR_NEO-6M-GPS"
 			(at 394.97 212.09 0)
 			(effects
 				(font
