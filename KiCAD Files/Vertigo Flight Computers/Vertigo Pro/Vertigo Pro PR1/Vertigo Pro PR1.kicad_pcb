@@ -7150,7 +7150,7 @@
 	(footprint "Vertigo Pro KiCad Libraries:XCVR_NEO-6M-GPS"
 		(layer "F.Cu")
 		(uuid "37227545-405c-4498-aa79-d24b547d3c13")
-		(at 149.25 126)
+		(at 150.5 127.6)
 		(property "Reference" "U8"
 			(at -4.37237 -9.03505 0)
 			(layer "F.SilkS")
