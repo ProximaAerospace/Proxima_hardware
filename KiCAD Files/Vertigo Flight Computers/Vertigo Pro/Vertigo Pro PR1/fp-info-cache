@@ -1,4 +1,4 @@
-23622522874908667
+23629397734950856
 ARDUINO_PRO_MINI
 MODULE_ARDUINO_PRO_MINI
 
@@ -96404,6 +96404,13 @@ Varistor VF
 2
 2
 Vertigo Pro KiCad Libraries
+CDMC6D28NP-4R7MC
+
+
+0
+0
+0
+Vertigo Pro KiCad Libraries
 DPS310XTSA1
 VLGA-8
 Integrated Circuit
@@ -96432,12 +96439,26 @@ IND_AMDLA4020S-4R7MT
 2
 2
 Vertigo Pro KiCad Libraries
+PQFN50P300X300X80-16N
+
+
+0
+16
+16
+Vertigo Pro KiCad Libraries
 RUX0012A
 
 TPS2121RUXR 
 0
 12
 12
+Vertigo Pro KiCad Libraries
+SON127P600X500X80-9N
+
+
+0
+9
+9
 Vertigo Pro KiCad Libraries
 SOP65P490X110-8N
 
@@ -96466,6 +96487,13 @@ XDCR_DPS310XTSA1
 0
 8
 8
+Vertigo Pro KiCad Libraries
+XTAL_TSX-3225_16.0000MF09Z-AC6
+
+
+0
+4
+4
 usini_sensors
 jack_3.5mm_TRRS
 Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electronics.com/en/products/WQP-PJ320D-72.html)

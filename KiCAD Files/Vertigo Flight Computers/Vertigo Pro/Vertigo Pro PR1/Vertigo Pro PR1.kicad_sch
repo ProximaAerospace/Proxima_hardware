@@ -14229,7 +14229,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 161.29) (xy 186.69 161.29)
+			(xy 210.82 99.06) (xy 240.03 99.06)
 		)
 		(stroke
 			(width 0)
@@ -15106,6 +15106,16 @@
 			(type default)
 		)
 		(uuid "502e31c9-4418-4a17-9bb5-ac568339b6ec")
+	)
+	(wire
+		(pts
+			(xy 245.11 102.87) (xy 273.05 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5045b24c-f42b-421f-bf39-f168e43348a7")
 	)
 	(wire
 		(pts
@@ -16399,7 +16409,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 165.1) (xy 186.69 165.1)
+			(xy 210.82 102.87) (xy 240.03 102.87)
 		)
 		(stroke
 			(width 0)
@@ -17556,6 +17566,16 @@
 			(type default)
 		)
 		(uuid "ae84ebc8-2369-47d4-8d5e-31d5a951b4b6")
+	)
+	(wire
+		(pts
+			(xy 245.11 99.06) (xy 273.05 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef8e07c-20fb-4050-ae64-abede55c05f3")
 	)
 	(wire
 		(pts
@@ -19750,7 +19770,7 @@
 		(uuid 13c4a89e-afd8-46de-b7a3-897faad9ebb9)
 	)
 	(rectangle
-		(start 136.525 63.5)
+		(start 135.89 63.5)
 		(end 172.085 125.73)
 		(stroke
 			(width 0)
@@ -19760,6 +19780,18 @@
 			(type none)
 		)
 		(uuid 184ba5da-97fc-488f-aaf2-dd2e3eab3b97)
+	)
+	(rectangle
+		(start 206.375 83.82)
+		(end 278.13 117.475)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 3e676e07-c2ab-437a-b928-c26928b3024a)
 	)
 	(rectangle
 		(start 476.885 97.155)
@@ -20969,6 +21001,17 @@
 		)
 		(uuid "8f7cf140-691a-4ce1-a6d6-31c97c0d2833")
 	)
+	(text "MuCU/TuCU Communication"
+		(exclude_from_sim no)
+		(at 242.57 114.3 0)
+		(effects
+			(font
+				(size 3.302 3.302)
+				(bold yes)
+			)
+		)
+		(uuid "8f9d79ad-aa67-4b9d-b6de-fba249e8c0b3")
+	)
 	(text "Pyrotechnical Channels"
 		(exclude_from_sim no)
 		(at 44.45 121.92 0)
@@ -21065,6 +21108,16 @@
 		)
 		(uuid "a8c219b0-7d3a-45b7-8615-b0e0839d7c76")
 	)
+	(text "I2C Communication"
+		(exclude_from_sim no)
+		(at 259.08 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a8ded0cc-3863-4419-b518-3b5e25ef9fe2")
+	)
 	(text "Inerial Measurement Unit (IMU)"
 		(exclude_from_sim no)
 		(at 344.17 260.35 0)
@@ -21086,9 +21139,9 @@
 		)
 		(uuid "babe74cd-9aa9-49ef-a961-8d0622382d35")
 	)
-	(text "UART Communication MuCU/TuCU"
+	(text "UART Communication\n"
 		(exclude_from_sim no)
-		(at 172.72 156.21 0)
+		(at 226.06 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21476,6 +21529,17 @@
 		)
 		(uuid "32ec25e5-1649-425b-a688-7cd694127e96")
 	)
+	(label "ESP_I2C_SDA"
+		(at 273.05 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "33d48a40-7684-4b18-9cce-e2afe4476902")
+	)
 	(label "IO16"
 		(at 85.09 213.36 0)
 		(fields_autoplaced yes)
@@ -21664,7 +21728,7 @@
 		(uuid "432070b5-9ef2-46f6-896d-54c1fda53ee4")
 	)
 	(label "STM_UART_RX"
-		(at 186.69 165.1 180)
+		(at 240.03 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21807,7 +21871,7 @@
 		(uuid "5865d8b5-83a5-4487-9012-e2e84b7c9e6c")
 	)
 	(label "ESP_UART_TX"
-		(at 157.48 165.1 0)
+		(at 210.82 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21827,6 +21891,17 @@
 			(justify right bottom)
 		)
 		(uuid "590475f0-f7da-4a76-acdf-3a8c8520c380")
+	)
+	(label "ESP_I2C_SCL"
+		(at 273.05 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "59a5e0f3-58c0-4f7f-8a11-64c554b2c632")
 	)
 	(label "IGN_3"
 		(at 78.74 60.96 0)
@@ -21884,7 +21959,7 @@
 		(uuid "61e13a95-a6cf-45c8-8e2e-a0e2691db938")
 	)
 	(label "STM_UART_TX"
-		(at 186.69 161.29 180)
+		(at 240.03 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21916,8 +21991,19 @@
 		)
 		(uuid "67434612-bdda-47ec-9baa-d4823288f22a")
 	)
+	(label "STM_I2C_SCL"
+		(at 245.11 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a6fe092-2c28-454e-9bed-d59498d76ca3")
+	)
 	(label "ESP_UART_RX"
-		(at 157.48 161.29 0)
+		(at 210.82 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22377,6 +22463,17 @@
 			(justify right bottom)
 		)
 		(uuid "b3c41ab5-ded2-4374-8cd2-dbbec84de8a6")
+	)
+	(label "STM_I2C_SDA"
+		(at 245.11 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b4c64d39-b41c-475d-bb8e-9cab9d71ac19")
 	)
 	(label "I2C_SDA"
 		(at 297.18 186.69 180)
@@ -26113,7 +26210,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vertigo Pro KiCad Libraries:CDMC6D28NP-4R7MC"
 			(at 543.56 288.29 0)
 			(effects
 				(font
@@ -26859,7 +26956,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 278.4348 125.73 0)
 			(effects
 				(font
@@ -32713,7 +32810,7 @@
 	)
 	(symbol
 		(lib_id "proxima_logo:LOGO")
-		(at 285.75 46.99 0)
+		(at 283.21 -33.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32722,7 +32819,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dede998-f654-4157-9d02-8d8a8b29e1bb")
 		(property "Reference" "#G1"
-			(at 285.75 26.8123 0)
+			(at 283.21 -53.1977 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32731,7 +32828,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 285.75 67.1677 0)
+			(at 283.21 -12.8423 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32740,7 +32837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 285.75 46.99 0)
+			(at 283.21 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32749,7 +32846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 285.75 46.99 0)
+			(at 283.21 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32758,7 +32855,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 285.75 46.99 0)
+			(at 283.21 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33959,7 +34056,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder"
 			(at 235.2548 125.73 0)
 			(effects
 				(font
