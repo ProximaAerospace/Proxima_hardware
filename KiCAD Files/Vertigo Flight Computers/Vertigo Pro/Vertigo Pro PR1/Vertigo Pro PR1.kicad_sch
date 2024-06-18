@@ -14109,7 +14109,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 322.58) (xy 118.11 323.85)
+			(xy 118.11 321.31) (xy 118.11 323.85)
 		)
 		(stroke
 			(width 0)
@@ -14399,7 +14399,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 314.96) (xy 118.11 300.99)
+			(xy 118.11 313.69) (xy 118.11 300.99)
 		)
 		(stroke
 			(width 0)
@@ -15809,16 +15809,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 312.42) (xy 121.92 314.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e08926d-41bb-4bb2-8de6-3b3fde8d5ded")
-	)
-	(wire
-		(pts
 			(xy 93.98 149.86) (xy 100.33 149.86)
 		)
 		(stroke
@@ -16116,6 +16106,16 @@
 			(type default)
 		)
 		(uuid "7d03e4d7-3e5e-4ad2-9683-6f1df27e5ca3")
+	)
+	(wire
+		(pts
+			(xy 121.92 313.69) (xy 121.92 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d1f895f-2f1e-4219-b4e7-5e992bc28bf4")
 	)
 	(wire
 		(pts
@@ -17709,7 +17709,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 326.39) (xy 121.92 322.58)
+			(xy 121.92 326.39) (xy 121.92 321.31)
 		)
 		(stroke
 			(width 0)
@@ -20676,6 +20676,25 @@
 			"AABJRU5ErkJggg=="
 		)
 	)
+	(text_box "Pull-up = USB/UART/I2C\nPull-down = SWD"
+		(exclude_from_sim no)
+		(at 29.845 283.21 0)
+		(size 27.305 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5e2367e5-fb7a-4ebe-95c5-c93346fbc0db")
+	)
 	(text_box "check SPI connections to stm!!!"
 		(exclude_from_sim no)
 		(at 455.295 120.015 0)
@@ -20836,9 +20855,9 @@
 		)
 		(uuid "3855a118-54b6-4183-b40c-046914940ae2")
 	)
-	(text "\"ST-LINK Conn\" is used to \nupload firmware for ST-Link"
+	(text "Connector used to flash firmware \nusing ST-Link V2 via Serial Wire Debug (SWD)\nUSB Flashing recommended (change with SW1 jumper)\n\n"
 		(exclude_from_sim no)
-		(at 135.89 340.36 0)
+		(at 135.89 341.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20848,7 +20867,7 @@
 	)
 	(text "MuCU (Main microcontroller Unit) Circuit"
 		(exclude_from_sim no)
-		(at 69.85 350.52 0)
+		(at 67.31 350.52 0)
 		(effects
 			(font
 				(size 3.302 3.302)
@@ -20909,9 +20928,9 @@
 		)
 		(uuid "77c70a91-0edd-4647-a812-faf11b5c1d39")
 	)
-	(text "uClamp0571 Protects VBUS from ESD"
+	(text "uClamp0571 Protects \nVBUS from ESD"
 		(exclude_from_sim no)
-		(at 163.83 334.01 0)
+		(at 176.53 331.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21077,6 +21096,16 @@
 		)
 		(uuid "bf657b3d-9302-4bfd-843c-33ca6c7e547e")
 	)
+	(text "Bootloader mode jumper\n"
+		(exclude_from_sim no)
+		(at 43.18 281.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0c34022-b182-4561-8951-28ced6382036")
+	)
 	(text "Channel 4\n"
 		(exclude_from_sim no)
 		(at 102.87 82.55 0)
@@ -21089,7 +21118,7 @@
 	)
 	(text "R3,R2=22R"
 		(exclude_from_sim no)
-		(at 129.54 320.04 0)
+		(at 129.54 318.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32361,7 +32390,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 81.28 165.1 90)
+			(at 81.28 170.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36978,7 +37007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm_NumberLabels"
 			(at 44.45 273.05 0)
 			(effects
 				(font
@@ -38313,7 +38342,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 318.77 0)
+		(at 121.92 317.5 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38321,7 +38350,7 @@
 		(dnp no)
 		(uuid "e86af073-be2c-478c-af65-ed9ddaca8bfc")
 		(property "Reference" "R2"
-			(at 123.19 322.58 0)
+			(at 124.46 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38329,7 +38358,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 125.73 317.5 0)
+			(at 125.73 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38338,7 +38367,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 120.142 318.77 90)
+			(at 120.142 317.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38347,7 +38376,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 318.77 0)
+			(at 121.92 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38356,7 +38385,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 318.77 0)
+			(at 121.92 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39204,7 +39233,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 118.11 318.77 180)
+		(at 118.11 317.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39212,7 +39241,7 @@
 		(dnp no)
 		(uuid "ec24611b-cb4a-45b3-a9a7-6c5aecc5edd3")
 		(property "Reference" "R3"
-			(at 116.84 322.58 0)
+			(at 115.57 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39220,7 +39249,7 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 125.73 323.85 0)
+			(at 125.73 322.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39229,7 +39258,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 119.888 318.77 90)
+			(at 119.888 317.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39238,7 +39267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 318.77 0)
+			(at 118.11 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39247,7 +39276,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 118.11 318.77 0)
+			(at 118.11 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
