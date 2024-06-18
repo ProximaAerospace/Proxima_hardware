@@ -26516,7 +26516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vertigo Pro KiCad Libraries:SOT95P280X145-5N"
 			(at 495.3 74.93 0)
 			(effects
 				(font
@@ -29234,7 +29234,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vertigo Pro KiCad Libraries:XTAL_TSX-3225_16.0000MF09Z-AC6"
 			(at 171.45 257.81 0)
 			(effects
 				(font
@@ -31847,7 +31847,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Vertigo Pro KiCad Libraries:SON127P600X800X80-9N"
+		(property "Footprint" "Vertigo Pro KiCad Libraries:SON127P600X500X80-9N"
 			(at 431.8 107.95 0)
 			(effects
 				(font
@@ -37107,7 +37107,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vertigo Pro KiCad Libraries:PQFN50P300X300X80-16N"
 			(at 379.73 389.56 0)
 			(effects
 				(font
@@ -37912,7 +37912,7 @@
 				)
 			)
 		)
-		(property "Footprint" "zswin:DPS310XTSA1"
+		(property "Footprint" "Vertigo Pro KiCad Libraries:DPS310XTSA1"
 			(at 441.96 393.37 0)
 			(effects
 				(font
@@ -39401,7 +39401,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Vertigo Pro KiCad Libraries:SOT95P280X145-5N"
 			(at 528.32 30.48 0)
 			(effects
 				(font
