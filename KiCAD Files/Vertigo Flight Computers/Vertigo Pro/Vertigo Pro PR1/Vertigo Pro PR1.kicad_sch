@@ -13148,6 +13148,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 170.18) (xy 142.24 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a5efe3b-d103-473d-beb9-10f482be3352")
+	)
+	(wire
+		(pts
 			(xy 58.42 262.89) (xy 69.85 262.89)
 		)
 		(stroke
@@ -13808,6 +13818,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 144.78) (xy 187.96 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3455be60-d260-406a-9b7e-aa47b3879ede")
+	)
+	(wire
+		(pts
 			(xy 511.81 194.31) (xy 518.16 194.31)
 		)
 		(stroke
@@ -14048,7 +14068,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 172.72) (xy 140.97 172.72)
+			(xy 128.27 172.72) (xy 142.24 172.72)
 		)
 		(stroke
 			(width 0)
@@ -16048,6 +16068,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 148.59) (xy 187.96 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84530396-9ef5-406f-b7b9-2bfb74139beb")
+	)
+	(wire
+		(pts
 			(xy 486.41 288.29) (xy 501.65 288.29)
 		)
 		(stroke
@@ -16118,7 +16148,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 175.26) (xy 140.97 175.26)
+			(xy 128.27 175.26) (xy 142.24 175.26)
 		)
 		(stroke
 			(width 0)
@@ -17775,6 +17805,16 @@
 			(type default)
 		)
 		(uuid "c1ac0814-cb5b-4f5c-8c0a-703ed80f37ca")
+	)
+	(wire
+		(pts
+			(xy 128.27 167.64) (xy 142.24 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1f439bd-21f6-437e-a390-3a58f47e50c3")
 	)
 	(wire
 		(pts
@@ -20716,6 +20756,16 @@
 		)
 		(uuid "babe74cd-9aa9-49ef-a961-8d0622382d35")
 	)
+	(text "UART Communication MuCU/TuCU"
+		(exclude_from_sim no)
+		(at 173.99 139.7 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bf657b3d-9302-4bfd-843c-33ca6c7e547e")
+	)
 	(text "Channel 4\n"
 		(exclude_from_sim no)
 		(at 102.87 82.55 0)
@@ -21209,6 +21259,17 @@
 		)
 		(uuid "408db7e0-97e0-421a-8aa7-da7e4584c7a7")
 	)
+	(label "STM_UART_RX"
+		(at 187.96 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "441d2eb9-d927-4057-b31b-9842bdf99a39")
+	)
 	(label "ESP_I2C_SCL"
 		(at 85.09 185.42 0)
 		(fields_autoplaced yes)
@@ -21330,6 +21391,17 @@
 		)
 		(uuid "5865d8b5-83a5-4487-9012-e2e84b7c9e6c")
 	)
+	(label "ESP_UART_TX"
+		(at 158.75 148.59 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "58a400f0-70dd-4910-bb6d-6b9703c6334a")
+	)
 	(label "CAM_RESET"
 		(at 262.89 187.96 180)
 		(fields_autoplaced yes)
@@ -21396,6 +21468,17 @@
 		)
 		(uuid "61e13a95-a6cf-45c8-8e2e-a0e2691db938")
 	)
+	(label "STM_UART_TX"
+		(at 187.96 144.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62f962f0-1d0e-4b7b-ad52-8fa72bdbacce")
+	)
 	(label "BATT_U"
 		(at 167.64 80.01 180)
 		(fields_autoplaced yes)
@@ -21417,6 +21500,17 @@
 			(justify left bottom)
 		)
 		(uuid "67434612-bdda-47ec-9baa-d4823288f22a")
+	)
+	(label "ESP_UART_RX"
+		(at 158.75 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71d220c0-fcef-4b7c-bd03-58a0f0d19933")
 	)
 	(label "CONTI_C1"
 		(at 31.75 50.8 0)
@@ -21946,6 +22040,17 @@
 		)
 		(uuid "b9766037-c0b3-488b-90a0-00cce536abf5")
 	)
+	(label "ESP_UART_TX"
+		(at 142.24 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ba8d396e-4c15-448e-9477-911059815ec7")
+	)
 	(label "DVP_Y7"
 		(at 262.89 200.66 180)
 		(fields_autoplaced yes)
@@ -21967,6 +22072,17 @@
 			(justify right bottom)
 		)
 		(uuid "be3641ca-04b7-4654-879f-74bc1b8462be")
+	)
+	(label "ESP_UART_RX"
+		(at 142.24 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c17b3302-3a90-4a60-a46a-78935a7c3976")
 	)
 	(label "VDD_1V5"
 		(at 307.34 219.71 0)
@@ -22068,7 +22184,7 @@
 		(uuid "c958b283-a342-4762-b951-8e419e62637d")
 	)
 	(label "IO17"
-		(at 140.97 172.72 180)
+		(at 142.24 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -22233,7 +22349,7 @@
 		(uuid "e334c985-cb8f-4056-aff4-d293ab198079")
 	)
 	(label "IO18"
-		(at 140.97 175.26 180)
+		(at 142.24 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
