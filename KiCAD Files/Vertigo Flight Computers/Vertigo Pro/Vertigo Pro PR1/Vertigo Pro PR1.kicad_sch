@@ -20708,10 +20708,10 @@
 			"AABJRU5ErkJggg=="
 		)
 	)
-	(text_box "Pull-up = USB/UART/I2C\nPull-down = SWD"
+	(text_box "1 = USB/UART/I2C\n0 = SWD"
 		(exclude_from_sim no)
-		(at 29.845 283.21 0)
-		(size 27.305 7.62)
+		(at 32.385 283.21 0)
+		(size 20.955 7.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -20887,7 +20887,7 @@
 		)
 		(uuid "3855a118-54b6-4183-b40c-046914940ae2")
 	)
-	(text "Connector used to flash firmware \nusing ST-Link V2 via Serial Wire Debug (SWD)\nUSB Flashing recommended (change with SW1 jumper)\n\n"
+	(text "Connector used to flash firmware \nusing ST-Link V2 via Serial Wire Debug (SWD)\nUSB Flashing recommended for updating firmware (change with SW1 jumper)\n\n"
 		(exclude_from_sim no)
 		(at 135.89 341.63 0)
 		(effects
