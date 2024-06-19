@@ -21749,7 +21749,7 @@
 	)
 	(text "Pressure Sensor"
 		(exclude_from_sim no)
-		(at 429.26 260.35 0)
+		(at 434.34 260.35 0)
 		(effects
 			(font
 				(size 3.302 3.302)
@@ -21782,7 +21782,7 @@
 	)
 	(text "Primary Magnetometer"
 		(exclude_from_sim no)
-		(at 252.73 260.35 0)
+		(at 251.46 260.35 0)
 		(effects
 			(font
 				(size 3.302 3.302)
