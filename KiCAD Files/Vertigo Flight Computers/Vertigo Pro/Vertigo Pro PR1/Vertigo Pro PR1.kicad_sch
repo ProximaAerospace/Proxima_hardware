@@ -4251,150 +4251,6 @@
 				)
 			)
 		)
-		(symbol "Diode:BZT52Bxx"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "BZT52Bxx"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-123F"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "500mW Zener Diode, SOD-123F"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "zener diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?SOD?123F*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BZT52Bxx_0_1"
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BZT52Bxx_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Diode:PTVS5V0Z1USK"
 			(pin_numbers hide)
 			(pin_names hide)
@@ -12827,7 +12683,7 @@
 		(uuid "688289de-2f60-4d6c-9635-644f2f1743c9")
 	)
 	(junction
-		(at 176.53 115.57)
+		(at 176.53 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69f70e17-7551-4ff5-b7f8-6af80bc3d8eb")
@@ -12983,12 +12839,6 @@
 		(uuid "92e52306-51ca-4c2b-b43f-72f077682dc3")
 	)
 	(junction
-		(at 176.53 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9b2d3fd1-291f-4e35-971d-988a20c69cca")
-	)
-	(junction
 		(at 393.7 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13005,12 +12855,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3377f8d-0df6-46bc-b070-d2a170c892ff")
-	)
-	(junction
-		(at 176.53 105.41)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a53425f9-61ce-4ae1-9567-a5354f8c512c")
 	)
 	(junction
 		(at 430.53 219.71)
@@ -13928,16 +13772,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 100.33) (xy 185.42 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13e4de12-ff85-4a5c-8686-866d19246486")
-	)
-	(wire
-		(pts
 			(xy 443.23 91.44) (xy 463.55 91.44)
 		)
 		(stroke
@@ -14008,7 +13842,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 116.84) (xy 176.53 115.57)
+			(xy 176.53 114.3) (xy 176.53 113.03)
 		)
 		(stroke
 			(width 0)
@@ -14358,7 +14192,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 105.41) (xy 176.53 106.68)
+			(xy 176.53 100.33) (xy 176.53 102.87)
 		)
 		(stroke
 			(width 0)
@@ -15058,16 +14892,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 104.14) (xy 176.53 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "37bcbc38-7520-4167-b73f-02ae81fbc6e0")
-	)
-	(wire
-		(pts
 			(xy 101.6 303.53) (xy 113.03 303.53)
 		)
 		(stroke
@@ -15458,7 +15282,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 115.57) (xy 162.56 109.22)
+			(xy 162.56 113.03) (xy 162.56 107.95)
 		)
 		(stroke
 			(width 0)
@@ -15955,16 +15779,6 @@
 			(type default)
 		)
 		(uuid "55e95966-e308-4ed7-83e1-3d3309da9df5")
-	)
-	(wire
-		(pts
-			(xy 176.53 95.25) (xy 184.15 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56941355-965f-4064-8cb1-0f6d447b9fe2")
 	)
 	(wire
 		(pts
@@ -17128,16 +16942,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 96.52) (xy 176.53 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84c0dc99-dfb8-42cf-aed5-4a92445b3289")
-	)
-	(wire
-		(pts
 			(xy 415.29 214.63) (xy 427.99 214.63)
 		)
 		(stroke
@@ -17208,7 +17012,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 95.25) (xy 176.53 95.25)
+			(xy 162.56 95.25) (xy 184.15 95.25)
 		)
 		(stroke
 			(width 0)
@@ -17638,7 +17442,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 115.57) (xy 162.56 115.57)
+			(xy 176.53 113.03) (xy 162.56 113.03)
 		)
 		(stroke
 			(width 0)
@@ -18125,16 +17929,6 @@
 			(type default)
 		)
 		(uuid "a507017d-f43f-4ef1-86ae-302c6ab5fe2b")
-	)
-	(wire
-		(pts
-			(xy 184.15 100.33) (xy 184.15 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a56e5fcd-2162-44e8-b797-57bb73fadd05")
 	)
 	(wire
 		(pts
@@ -19628,7 +19422,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 95.25) (xy 162.56 101.6)
+			(xy 162.56 95.25) (xy 162.56 100.33)
 		)
 		(stroke
 			(width 0)
@@ -19898,7 +19692,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 105.41) (xy 176.53 105.41)
+			(xy 176.53 100.33) (xy 185.42 100.33)
 		)
 		(stroke
 			(width 0)
@@ -20358,7 +20152,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 115.57) (xy 176.53 114.3)
+			(xy 176.53 113.03) (xy 176.53 110.49)
 		)
 		(stroke
 			(width 0)
@@ -36176,7 +35970,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 162.56 105.41 0)
+		(at 162.56 104.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36184,7 +35978,7 @@
 		(dnp no)
 		(uuid "bf9d25fb-43ea-4a0c-95d4-e734431b68be")
 		(property "Reference" "C28"
-			(at 165.1 104.14 0)
+			(at 165.1 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36193,7 +35987,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 165.1 106.68 0)
+			(at 165.1 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36202,7 +35996,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 163.5252 109.22 0)
+			(at 163.5252 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36211,7 +36005,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 105.41 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36220,7 +36014,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 105.41 0)
+			(at 162.56 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36238,75 +36032,6 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BZT52Bxx")
-		(at 176.53 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfb3304f-8b2f-45b5-881b-7ebe5711374c")
-		(property "Reference" "D2"
-			(at 171.45 97.79 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BZT52C"
-			(at 167.64 100.33 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123F"
-			(at 172.085 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzt52b2v4.pdf"
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "500mW Zener Diode, SOD-123F"
-			(at 176.53 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "49e92342-2b5e-410f-9010-a00c5d15996f")
-		)
-		(pin "1"
-			(uuid "64885784-dae7-40e9-8036-741a29e322e6")
-		)
-		(instances
-			(project ""
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -36840,7 +36565,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 176.53 110.49 180)
+		(at 176.53 106.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36848,7 +36573,7 @@
 		(dnp no)
 		(uuid "c4dc9dec-3f8d-4e77-848f-df673431f184")
 		(property "Reference" "R15"
-			(at 172.72 109.22 0)
+			(at 180.34 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36856,7 +36581,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 172.72 111.76 0)
+			(at 180.34 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36864,7 +36589,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 178.308 110.49 90)
+			(at 178.308 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36873,7 +36598,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 110.49 0)
+			(at 176.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36882,7 +36607,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 176.53 110.49 0)
+			(at 176.53 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41588,7 +41313,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 176.53 116.84 0)
+		(at 176.53 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41597,7 +41322,7 @@
 		(fields_autoplaced yes)
 		(uuid "fa411669-1efa-4c4f-b6e8-f00f847536ad")
 		(property "Reference" "#PWR095"
-			(at 176.53 123.19 0)
+			(at 176.53 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41606,7 +41331,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 176.53 121.92 0)
+			(at 176.53 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41615,7 +41340,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 116.84 0)
+			(at 176.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41624,7 +41349,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 116.84 0)
+			(at 176.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41633,7 +41358,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 116.84 0)
+			(at 176.53 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
