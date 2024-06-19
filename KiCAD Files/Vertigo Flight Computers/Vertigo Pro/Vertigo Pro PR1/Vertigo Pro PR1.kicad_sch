@@ -5,7 +5,7 @@
 	(uuid "134db9eb-a948-4fc5-8d59-41ff4a5a8862")
 	(paper "User" 596.9 368.3)
 	(title_block
-		(title "Vertigo Pro - Flight Computer")
+		(title "Vertigo Pro - Prototype Flight Computer")
 		(date "2024-06-16")
 		(rev "PR1")
 		(company "B-SPACE & Flower Space")
@@ -32810,7 +32810,7 @@
 	)
 	(symbol
 		(lib_id "proxima_logo:LOGO")
-		(at 283.21 -33.02 0)
+		(at 275.59 -102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32819,7 +32819,7 @@
 		(fields_autoplaced yes)
 		(uuid "9dede998-f654-4157-9d02-8d8a8b29e1bb")
 		(property "Reference" "#G1"
-			(at 283.21 -53.1977 0)
+			(at 275.59 -123.0477 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32828,7 +32828,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 283.21 -12.8423 0)
+			(at 275.59 -82.6923 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32837,7 +32837,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 283.21 -33.02 0)
+			(at 275.59 -102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32846,7 +32846,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 -33.02 0)
+			(at 275.59 -102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32855,7 +32855,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 283.21 -33.02 0)
+			(at 275.59 -102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33512,7 +33512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 171.45 201.93 0)
 			(effects
 				(font
@@ -38395,7 +38395,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 171.45 180.34 0)
 			(effects
 				(font
@@ -39280,7 +39280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_1x04_P1.27mm_Vertical"
 			(at 139.7 328.93 0)
 			(effects
 				(font
