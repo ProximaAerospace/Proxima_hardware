@@ -8838,12 +8838,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "Vishay SI7149ADP-T1-GE3 P-channel MOSFET Transistor, 18.4 A, -30 V, 8-Pin PowerPAK SO"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify bottom)
 					(hide yes)
 				)
 			)
@@ -8868,16 +8869,6 @@
 				)
 			)
 			(property "MOUSER_PRICE-STOCK" "https://www.mouser.co.uk/ProductDetail/Vishay-Semiconductors/SI7149ADP-T1-GE3?qs=vgn07B5hXauIZBHl%2Fj5hoQ%3D%3D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "Vishay SI7149ADP-T1-GE3 P-channel MOSFET Transistor, 18.4 A, -30 V, 8-Pin PowerPAK SO"
 				(at 0 0 0)
 				(effects
 					(font
@@ -10289,6 +10280,247 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Simulation_SPICE:NPN"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NPN"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 63.5 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+				(at 63.5 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NPN_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NPN_1_1"
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -12275,6 +12507,12 @@
 		)
 	)
 	(junction
+		(at 30.48 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00d491dd-032d-4a4f-a426-6e347b7a5f6a")
+	)
+	(junction
 		(at 394.97 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12285,6 +12523,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "020a9f74-515e-467b-bc2e-423c2b94e429")
+	)
+	(junction
+		(at 46.99 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "05024173-4a57-4400-8625-baca2534153c")
 	)
 	(junction
 		(at 163.83 320.04)
@@ -12299,16 +12543,16 @@
 		(uuid "0677dfe5-cf77-4960-984a-30d93fbcef8c")
 	)
 	(junction
-		(at 107.95 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0687603a-0dfb-4915-9470-c76eaa4d507e")
-	)
-	(junction
 		(at 220.98 304.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09e21f80-3d31-420c-baa4-39dd3b62d2c3")
+	)
+	(junction
+		(at 30.48 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c6e4e36-3a64-4933-a224-f7ffce07aeff")
 	)
 	(junction
 		(at 384.81 312.42)
@@ -12333,6 +12577,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1160052e-5018-4224-b9e7-878c0eba0228")
+	)
+	(junction
+		(at 106.68 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11d571f5-b1b9-471e-ade9-d2a3a8ec5785")
 	)
 	(junction
 		(at 121.92 312.42)
@@ -12377,7 +12627,7 @@
 		(uuid "1715f4fe-51df-472c-aee1-3a65c8c0b830")
 	)
 	(junction
-		(at 40.64 62.23)
+		(at 48.26 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1719bb38-82ed-4d23-bb61-33391a131bdb")
@@ -12395,12 +12645,6 @@
 		(uuid "1a8aea9c-5328-40cc-b68a-0f28fa56cb29")
 	)
 	(junction
-		(at 107.95 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b9526f5-7f0e-4c38-b9cd-540ea9e79be6")
-	)
-	(junction
 		(at 58.42 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12411,6 +12655,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d66f864-2aca-45a1-af75-9ee4b8d230ed")
+	)
+	(junction
+		(at 30.48 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fcfc723-0408-4544-a6bd-ee67b5e97d58")
 	)
 	(junction
 		(at 251.46 270.51)
@@ -12533,12 +12783,6 @@
 		(uuid "41e26b8b-eb03-4ca0-905d-f56b6822ab0f")
 	)
 	(junction
-		(at 96.52 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "448ecc87-f7f3-473d-8672-bfdb5d838bab")
-	)
-	(junction
 		(at 241.3 229.87)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12563,16 +12807,10 @@
 		(uuid "4ca3fef7-a8a2-4fb7-b43d-7b901ca9f120")
 	)
 	(junction
-		(at 45.72 74.93)
+		(at 53.34 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ca9e6b4-5f06-4b30-9405-64eeb7e0d5d5")
-	)
-	(junction
-		(at 97.79 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d2603fa-5ae0-4cc7-bce8-37a9879c8c8f")
 	)
 	(junction
 		(at 152.4 313.69)
@@ -12629,16 +12867,16 @@
 		(uuid "567d6619-3f53-489d-97c9-0e33526a24ab")
 	)
 	(junction
-		(at 50.8 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5816685f-6526-4862-9bfe-78d51b3fe99b")
-	)
-	(junction
 		(at 508 288.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "595d1595-8289-4a56-921c-fc305256f85b")
+	)
+	(junction
+		(at 105.41 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ae41234-66b5-4a90-9e7b-b3fff59f59d6")
 	)
 	(junction
 		(at 212.09 95.25)
@@ -12705,12 +12943,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fd31a57-51ab-4c67-b4ce-829043f384ca")
-	)
-	(junction
-		(at 39.37 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70c1f13f-4dbc-40e2-8293-2af55e811d86")
 	)
 	(junction
 		(at 443.23 91.44)
@@ -12791,16 +13023,28 @@
 		(uuid "81b7d85c-b933-49e9-9ad1-7e363e301739")
 	)
 	(junction
+		(at 88.9 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8390abbf-8906-47f3-ac60-17c2ca2a42db")
+	)
+	(junction
 		(at 349.25 285.75)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "860c1b05-740c-4bb7-abc5-83ca858fe97c")
 	)
 	(junction
-		(at 97.79 60.96)
+		(at 116.84 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8a3c14f5-d8d9-4b0e-aa6c-b5d492d4cb55")
+		(uuid "897f1f0c-3c5a-46a7-8196-31c753872de4")
+	)
+	(junction
+		(at 106.68 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "899daa4d-a8e5-4875-962a-67243be93f1a")
 	)
 	(junction
 		(at 532.13 76.2)
@@ -12809,16 +13053,16 @@
 		(uuid "8abb3fa2-140b-42fb-9b72-a306a707782b")
 	)
 	(junction
-		(at 45.72 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8bc2e326-e549-46b8-836c-43bf1d7940e1")
-	)
-	(junction
 		(at 515.62 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c205505-7ac0-42ca-9a2b-a1a534940cba")
+	)
+	(junction
+		(at 58.42 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ed6a441-5adc-41e8-a5de-3cf260bb55fa")
 	)
 	(junction
 		(at 177.8 180.34)
@@ -12833,22 +13077,28 @@
 		(uuid "8fa294fd-a4a5-4c59-86c1-b960ca188ce2")
 	)
 	(junction
+		(at 46.99 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91927ff4-ee9f-4b39-b774-5a2dbc770e12")
+	)
+	(junction
 		(at 384.81 309.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92e52306-51ca-4c2b-b43f-72f077682dc3")
 	)
 	(junction
+		(at 116.84 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f728682-f186-4c07-bcca-3c219ce7f199")
+	)
+	(junction
 		(at 393.7 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a04f74d2-ba5a-4be1-a9b8-bc7903326bd5")
-	)
-	(junction
-		(at 40.64 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a0b23514-591d-4be6-b55a-2010c8db1510")
 	)
 	(junction
 		(at 83.82 261.62)
@@ -12869,6 +13119,18 @@
 		(uuid "a6db1610-8b85-481f-85b0-d3764bea3ee4")
 	)
 	(junction
+		(at 111.76 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab6cc2c8-514e-43ca-b8e9-a744c5a58fb2")
+	)
+	(junction
+		(at 111.76 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "acf2be68-3589-46eb-8910-6f13b8788e9a")
+	)
+	(junction
 		(at 234.95 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12879,12 +13141,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af2a04c5-05a6-47b1-86a5-8e089ab5c2fa")
-	)
-	(junction
-		(at 102.87 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "afa25441-9163-4203-9d81-cd89273267f7")
 	)
 	(junction
 		(at 394.97 154.94)
@@ -12905,10 +13161,10 @@
 		(uuid "b35172a1-2f8f-4a80-bb04-134452983bfe")
 	)
 	(junction
-		(at 39.37 54.61)
+		(at 88.9 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b44a297d-31eb-4a86-825f-8305bfbec025")
+		(uuid "b36e8eb8-5eae-415c-8409-c761bda0efaa")
 	)
 	(junction
 		(at 113.03 153.67)
@@ -12983,6 +13239,12 @@
 		(uuid "cc27b1d9-7e8c-43f0-93d5-5e753e06efb1")
 	)
 	(junction
+		(at 58.42 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd42e088-8ea0-4c2d-875b-3d3a775a3e98")
+	)
+	(junction
 		(at 506.73 237.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12995,6 +13257,12 @@
 		(uuid "d498d4b1-d5b6-43b8-b064-d319aa48b25b")
 	)
 	(junction
+		(at 48.26 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d57fee27-1c89-4c0f-8fc0-2af226a6e332")
+	)
+	(junction
 		(at 515.62 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13005,12 +13273,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d65e3fad-f1ec-4daf-975a-dad13433d239")
-	)
-	(junction
-		(at 102.87 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d6dfe692-36dc-4e87-b114-a53e338bd462")
 	)
 	(junction
 		(at 408.94 114.3)
@@ -13031,10 +13293,28 @@
 		(uuid "df4945a0-d52a-4a1f-99e5-053b971f8141")
 	)
 	(junction
+		(at 105.41 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfb6732d-77ec-414c-9928-b10d05f0ca6a")
+	)
+	(junction
 		(at 504.19 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e03acddd-082a-4ef2-be0c-7feae3c795be")
+	)
+	(junction
+		(at 88.9 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1429a06-4ffc-4d51-a136-436540431204")
+	)
+	(junction
+		(at 53.34 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e5b45c45-1e0b-42ae-8333-fa7613f57d9f")
 	)
 	(junction
 		(at 219.71 92.71)
@@ -13097,10 +13377,10 @@
 		(uuid "f607878d-f56c-4546-905f-e997d7febc43")
 	)
 	(junction
-		(at 96.52 53.34)
+		(at 88.9 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f63c663d-2ef4-4046-a38e-6fa014ddc682")
+		(uuid "f6ed98ff-a821-4bd5-a3c5-e6b7f0f2c593")
 	)
 	(junction
 		(at 440.69 194.31)
@@ -13109,10 +13389,10 @@
 		(uuid "f7dbbacf-e566-4b43-a996-62b67c5c9cc0")
 	)
 	(junction
-		(at 50.8 54.61)
+		(at 30.48 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f97ed17d-e487-4832-ba7e-a9b6967c1543")
+		(uuid "fc2fe15a-31b6-4dc7-8591-5bd9bd64eb3e")
 	)
 	(junction
 		(at 24.13 262.89)
@@ -13292,6 +13572,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 71.12) (xy 106.68 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015312f7-36d3-4627-bec8-3b0221f918dd")
+	)
+	(wire
+		(pts
 			(xy 349.25 200.66) (xy 356.87 200.66)
 		)
 		(stroke
@@ -13382,6 +13672,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 93.98) (xy 49.53 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03399b83-6b2d-45cb-9b95-7feceec04210")
+	)
+	(wire
+		(pts
 			(xy 518.16 203.2) (xy 519.43 203.2)
 		)
 		(stroke
@@ -13432,16 +13732,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 53.34) (xy 99.06 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0563ba9b-99b8-40b0-abf9-c1b9b2f5943c")
-	)
-	(wire
-		(pts
 			(xy 209.55 208.28) (xy 223.52 208.28)
 		)
 		(stroke
@@ -13449,6 +13739,16 @@
 			(type default)
 		)
 		(uuid "060e5f8c-1b74-4be0-b435-1b9309546a3a")
+	)
+	(wire
+		(pts
+			(xy 105.41 95.25) (xy 107.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06c831eb-5f03-44b1-8d55-e78d8cf7b521")
 	)
 	(wire
 		(pts
@@ -13482,7 +13782,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 62.23) (xy 30.48 62.23)
+			(xy 27.94 57.15) (xy 38.1 57.15)
 		)
 		(stroke
 			(width 0)
@@ -13499,6 +13799,16 @@
 			(type default)
 		)
 		(uuid "084d79ba-7d92-4aec-a8c3-3aaa8b1be75e")
+	)
+	(wire
+		(pts
+			(xy 58.42 93.98) (xy 58.42 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "095d1f0d-72d2-4c01-8b36-7f8a0e229b28")
 	)
 	(wire
 		(pts
@@ -13562,6 +13872,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 52.07) (xy 88.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b2a955c-3831-4d81-ab8f-ec03e77c510a")
+	)
+	(wire
+		(pts
 			(xy 455.93 306.07) (xy 449.58 306.07)
 		)
 		(stroke
@@ -13569,16 +13889,6 @@
 			(type default)
 		)
 		(uuid "0b74a2a5-111b-4d01-a45f-de9c6f76b024")
-	)
-	(wire
-		(pts
-			(xy 95.25 101.6) (xy 97.79 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c2fe7f2-da6b-40cc-911d-05bf982343e3")
 	)
 	(wire
 		(pts
@@ -13652,6 +13962,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 82.55) (xy 76.2 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fb0700d-646a-43ca-b689-27cbbd61a2d0")
+	)
+	(wire
+		(pts
 			(xy 81.28 339.09) (xy 81.28 340.36)
 		)
 		(stroke
@@ -13682,16 +14002,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 83.82) (xy 62.23 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11703eff-2f37-456f-89f8-2c8e95b28c42")
-	)
-	(wire
-		(pts
 			(xy 365.76 275.59) (xy 370.84 275.59)
 		)
 		(stroke
@@ -13712,16 +14022,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 48.26) (xy 107.95 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11b60e5f-7e97-4a43-9408-5ccf840848e3")
-	)
-	(wire
-		(pts
 			(xy 548.64 293.37) (xy 548.64 298.45)
 		)
 		(stroke
@@ -13739,16 +14039,6 @@
 			(type default)
 		)
 		(uuid "11f2a3e2-63c6-444c-a6f4-3c3f340b3cb8")
-	)
-	(wire
-		(pts
-			(xy 107.95 53.34) (xy 107.95 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12c6aee8-50c4-4ef6-bec6-c4ad6755e364")
 	)
 	(wire
 		(pts
@@ -13829,16 +14119,6 @@
 			(type default)
 		)
 		(uuid "15a1eab7-0ca3-4cbe-8550-93bb404affaf")
-	)
-	(wire
-		(pts
-			(xy 39.37 54.61) (xy 39.37 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b0b34c-14b3-4ad0-a4d5-0d622e5ac3b4")
 	)
 	(wire
 		(pts
@@ -13952,13 +14232,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 60.96) (xy 97.79 60.96)
+			(xy 80.01 39.37) (xy 76.2 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "19298706-f46d-4a52-8a39-8ee12d30bc81")
+		(uuid "1a566028-55f9-404b-a7da-ee5799259fee")
 	)
 	(wire
 		(pts
@@ -14002,6 +14282,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 100.33) (xy 50.8 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd5fcb9-4a22-4c62-aec9-5d18c7f1a374")
+	)
+	(wire
+		(pts
 			(xy 530.86 132.08) (xy 530.86 129.54)
 		)
 		(stroke
@@ -14042,7 +14332,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 76.2) (xy 45.72 74.93)
+			(xy 53.34 71.12) (xy 53.34 69.85)
 		)
 		(stroke
 			(width 0)
@@ -14052,7 +14342,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 74.93) (xy 45.72 74.93)
+			(xy 58.42 69.85) (xy 53.34 69.85)
 		)
 		(stroke
 			(width 0)
@@ -14082,6 +14372,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 81.28) (xy 69.85 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e52769c-8bf0-4d15-926b-bc0249385712")
+	)
+	(wire
+		(pts
 			(xy 515.62 121.92) (xy 515.62 119.38)
 		)
 		(stroke
@@ -14102,13 +14402,23 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 54.61) (xy 29.21 54.61)
+			(xy 106.68 58.42) (xy 106.68 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "208b8100-9c51-40ae-82ce-45f27b740de3")
+		(uuid "1fd23cef-ee05-4bfb-aa96-5bdf7203b39d")
+	)
+	(wire
+		(pts
+			(xy 104.14 58.42) (xy 106.68 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20388af3-8e07-407a-8139-3bd002ad9d9f")
 	)
 	(wire
 		(pts
@@ -14172,6 +14482,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 45.72) (xy 96.52 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "226f3d50-c878-4233-98b3-476018aa7ef9")
+	)
+	(wire
+		(pts
 			(xy 359.41 275.59) (xy 359.41 276.86)
 		)
 		(stroke
@@ -14232,6 +14552,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 38.1) (xy 29.21 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263abe5f-27ff-4049-91ad-3cfbbd192850")
+	)
+	(wire
+		(pts
 			(xy 69.85 262.89) (xy 69.85 261.62)
 		)
 		(stroke
@@ -14249,6 +14579,16 @@
 			(type default)
 		)
 		(uuid "264f83c7-882a-4445-98a6-840a00b514c9")
+	)
+	(wire
+		(pts
+			(xy 30.48 81.28) (xy 29.21 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26dc8159-b2d4-4ac6-8e87-58fbb2bd1617")
 	)
 	(wire
 		(pts
@@ -14372,7 +14712,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 43.18) (xy 50.8 46.99)
+			(xy 58.42 38.1) (xy 58.42 41.91)
 		)
 		(stroke
 			(width 0)
@@ -14542,16 +14882,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 93.98) (xy 85.09 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "305a62d0-fbc2-4e3d-868b-0a5b3335143d")
-	)
-	(wire
-		(pts
 			(xy 212.09 95.25) (xy 210.82 95.25)
 		)
 		(stroke
@@ -14572,16 +14902,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 90.17) (xy 87.63 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30ad79d3-bac8-4ce8-a19d-a7b844793121")
-	)
-	(wire
-		(pts
 			(xy 420.37 157.48) (xy 433.07 157.48)
 		)
 		(stroke
@@ -14589,16 +14909,6 @@
 			(type default)
 		)
 		(uuid "30b1ffa1-9d3e-402b-b5cd-0714cb809440")
-	)
-	(wire
-		(pts
-			(xy 102.87 74.93) (xy 102.87 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30d6545a-43f0-4453-8c97-2c2e62cbb75c")
 	)
 	(wire
 		(pts
@@ -14612,6 +14922,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 53.34) (xy 88.9 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b0ffa8-a78e-4934-aa36-97877b22bd76")
+	)
+	(wire
+		(pts
 			(xy 238.76 93.98) (xy 238.76 92.71)
 		)
 		(stroke
@@ -14619,6 +14939,16 @@
 			(type default)
 		)
 		(uuid "31fc39a6-6e6d-4262-afe0-9a23764c1dc4")
+	)
+	(wire
+		(pts
+			(xy 88.9 39.37) (xy 99.06 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3250cb8e-e225-4357-aacf-4e9f9790c0eb")
 	)
 	(wire
 		(pts
@@ -14762,16 +15092,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 102.87) (xy 40.64 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35d0bbfc-e860-4c22-abf8-3d7600e44374")
-	)
-	(wire
-		(pts
 			(xy 383.54 307.34) (xy 384.81 307.34)
 		)
 		(stroke
@@ -14782,23 +15102,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 43.18) (xy 62.23 43.18)
+			(xy 58.42 38.1) (xy 69.85 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3606ee58-e44d-492e-92d6-cb65fe9cd70d")
-	)
-	(wire
-		(pts
-			(xy 27.94 96.52) (xy 27.94 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "363e61e4-2e07-43fe-82b3-39578150245c")
 	)
 	(wire
 		(pts
@@ -14829,16 +15139,6 @@
 			(type default)
 		)
 		(uuid "36b2c01a-a1bd-41c8-82d9-02472c5cd241")
-	)
-	(wire
-		(pts
-			(xy 50.8 83.82) (xy 50.8 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36dae501-2b40-4ee6-a590-8007d634be11")
 	)
 	(wire
 		(pts
@@ -14879,6 +15179,16 @@
 			(type default)
 		)
 		(uuid "3756eceb-20fe-459d-82b2-76f617e08ffc")
+	)
+	(wire
+		(pts
+			(xy 30.48 93.98) (xy 36.83 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377815a1-2715-4aa4-95a4-c58ce5325847")
 	)
 	(wire
 		(pts
@@ -14972,16 +15282,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 54.61) (xy 41.91 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aabaa92-70b4-47af-b76e-d3ada7b874af")
-	)
-	(wire
-		(pts
 			(xy 232.41 331.47) (xy 246.38 331.47)
 		)
 		(stroke
@@ -15009,6 +15309,16 @@
 			(type default)
 		)
 		(uuid "3b7caa65-32a8-40ce-adb4-2f0b18ab9495")
+	)
+	(wire
+		(pts
+			(xy 116.84 39.37) (xy 116.84 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b7cb388-297f-4481-bdca-e8c19401f70e")
 	)
 	(wire
 		(pts
@@ -15062,16 +15372,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 114.3) (xy 97.79 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cde6c75-cb14-4f51-af9e-3485ceaa58a5")
-	)
-	(wire
-		(pts
 			(xy 100.33 252.73) (xy 111.76 252.73)
 		)
 		(stroke
@@ -15099,6 +15399,16 @@
 			(type default)
 		)
 		(uuid "3d3817f0-db38-4b2e-9625-042fb72dcc16")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 116.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4aaa8c-3f06-4868-bcd0-8d23186fb7a6")
 	)
 	(wire
 		(pts
@@ -15172,6 +15482,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 40.64) (xy 88.9 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40624272-18ad-4d09-ad3c-728aefb8903c")
+	)
+	(wire
+		(pts
 			(xy 251.46 269.24) (xy 251.46 270.51)
 		)
 		(stroke
@@ -15199,6 +15519,16 @@
 			(type default)
 		)
 		(uuid "40c9a3f2-f767-4112-ac3b-d75d029d6ad9")
+	)
+	(wire
+		(pts
+			(xy 116.84 45.72) (xy 116.84 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4112d560-ca45-43ff-a6d1-5450935f6009")
 	)
 	(wire
 		(pts
@@ -15272,13 +15602,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 107.95) (xy 50.8 115.57)
+			(xy 30.48 81.28) (xy 40.64 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4382fd3e-7f44-4575-9180-89bab8b97e92")
+		(uuid "4317795e-617f-46d6-9804-e7b8e9af42fc")
 	)
 	(wire
 		(pts
@@ -15329,6 +15659,16 @@
 			(type default)
 		)
 		(uuid "456ece62-b248-4988-8dbe-abffb18e5616")
+	)
+	(wire
+		(pts
+			(xy 30.48 95.25) (xy 30.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "459b3918-3eb4-4908-bf69-6c8303f16a46")
 	)
 	(wire
 		(pts
@@ -15402,7 +15742,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 67.31) (xy 50.8 74.93)
+			(xy 58.42 62.23) (xy 58.42 69.85)
 		)
 		(stroke
 			(width 0)
@@ -15552,16 +15892,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 101.6) (xy 97.79 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cbc7402-d01a-4016-9eda-a60fc79cc226")
-	)
-	(wire
-		(pts
 			(xy 248.92 185.42) (xy 262.89 185.42)
 		)
 		(stroke
@@ -15622,6 +15952,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 101.6) (xy 106.68 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fa5282a-9c15-4e78-890b-088110ab333f")
+	)
+	(wire
+		(pts
 			(xy 349.25 276.86) (xy 349.25 275.59)
 		)
 		(stroke
@@ -15629,16 +15969,6 @@
 			(type default)
 		)
 		(uuid "5001d851-2bd7-476b-8e1b-1c4684b226c9")
-	)
-	(wire
-		(pts
-			(xy 77.47 60.96) (xy 87.63 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "502e31c9-4418-4a17-9bb5-ac568339b6ec")
 	)
 	(wire
 		(pts
@@ -15662,7 +15992,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 62.23) (xy 40.64 62.23)
+			(xy 45.72 57.15) (xy 48.26 57.15)
 		)
 		(stroke
 			(width 0)
@@ -15682,13 +16012,13 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 54.61) (xy 27.94 55.88)
+			(xy 48.26 113.03) (xy 48.26 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5220993d-04bc-491c-a957-3f6cf8938328")
+		(uuid "522e3e9b-7fa0-4fbc-9f18-4d6d836af30c")
 	)
 	(wire
 		(pts
@@ -15772,13 +16102,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 60.96) (xy 100.33 60.96)
+			(xy 116.84 114.3) (xy 111.76 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "55e95966-e308-4ed7-83e1-3d3309da9df5")
+		(uuid "566ba588-e92e-44ed-8ddf-756c29c1c1af")
 	)
 	(wire
 		(pts
@@ -15792,26 +16122,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 101.6) (xy 87.63 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e4972c-0856-49a5-9480-49505a7e4cdc")
-	)
-	(wire
-		(pts
-			(xy 107.95 106.68) (xy 107.95 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58ce2ac0-2227-44dc-850b-928e13afa6eb")
-	)
-	(wire
-		(pts
 			(xy 425.45 207.01) (xy 427.99 207.01)
 		)
 		(stroke
@@ -15819,16 +16129,6 @@
 			(type default)
 		)
 		(uuid "58d007b8-37d5-43b3-98f1-49a9a228e362")
-	)
-	(wire
-		(pts
-			(xy 107.95 93.98) (xy 107.95 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58eb5b9b-e808-4455-b625-1a49a0de043c")
 	)
 	(wire
 		(pts
@@ -15889,6 +16189,16 @@
 			(type default)
 		)
 		(uuid "5a30280c-9f07-4774-a5fc-0fccb7137c86")
+	)
+	(wire
+		(pts
+			(xy 116.84 71.12) (xy 111.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ac04f9c-be7c-4426-9be8-502a929b65a0")
 	)
 	(wire
 		(pts
@@ -16022,6 +16332,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 95.25) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dcb1f71-010e-471e-9a87-924434b75d3c")
+	)
+	(wire
+		(pts
 			(xy 558.8 243.84) (xy 558.8 242.57)
 		)
 		(stroke
@@ -16029,6 +16349,16 @@
 			(type default)
 		)
 		(uuid "5e84ef01-5c1a-4972-8669-982cd8f0231b")
+	)
+	(wire
+		(pts
+			(xy 46.99 44.45) (xy 46.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ebbcd09-638a-48f5-bc2b-d9b4109da269")
 	)
 	(wire
 		(pts
@@ -16072,6 +16402,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 52.07) (xy 95.25 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60b1fca1-32fa-4c7b-8ea9-57c4ff6c4165")
+	)
+	(wire
+		(pts
 			(xy 381 110.49) (xy 401.32 110.49)
 		)
 		(stroke
@@ -16089,26 +16429,6 @@
 			(type default)
 		)
 		(uuid "61791157-acad-471d-88c6-acc45ed59e0b")
-	)
-	(wire
-		(pts
-			(xy 40.64 115.57) (xy 40.64 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61c76ae6-a711-41ad-aaf0-39d37b8c01d9")
-	)
-	(wire
-		(pts
-			(xy 107.95 82.55) (xy 107.95 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "623d3921-e473-4007-aba1-34f8cd41cf7c")
 	)
 	(wire
 		(pts
@@ -16162,6 +16482,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 82.55) (xy 99.06 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64623ecc-f18e-49ce-a63b-671b36c181ba")
+	)
+	(wire
+		(pts
 			(xy 323.85 294.64) (xy 323.85 290.83)
 		)
 		(stroke
@@ -16192,6 +16522,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 95.25) (xy 105.41 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67bf9867-427d-47af-a9ef-80ed9a451fb7")
+	)
+	(wire
+		(pts
 			(xy 393.7 95.25) (xy 393.7 91.44)
 		)
 		(stroke
@@ -16199,6 +16539,16 @@
 			(type default)
 		)
 		(uuid "6839e1a0-90fd-4f8d-aae7-34083b8eb3e6")
+	)
+	(wire
+		(pts
+			(xy 46.99 87.63) (xy 46.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68e24edd-a040-4df9-b140-f86d3ca54e83")
 	)
 	(wire
 		(pts
@@ -16229,16 +16579,6 @@
 			(type default)
 		)
 		(uuid "6a6f9b7f-e957-4452-bc41-4cf854bbe743")
-	)
-	(wire
-		(pts
-			(xy 45.72 116.84) (xy 45.72 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b09cd98-a31c-4cb1-81f3-7fb9985bc1e8")
 	)
 	(wire
 		(pts
@@ -16292,16 +16632,6 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 93.98) (xy 86.36 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf473f0-a13f-4bec-8aab-1e0e4dddf3f2")
-	)
-	(wire
-		(pts
 			(xy 58.42 280.67) (xy 68.58 280.67)
 		)
 		(stroke
@@ -16309,16 +16639,6 @@
 			(type default)
 		)
 		(uuid "6d0afbec-8447-4b80-a997-cfa68e8057f1")
-	)
-	(wire
-		(pts
-			(xy 93.98 93.98) (xy 96.52 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d0b25b1-7a26-4a27-8b3c-ce8282a632bc")
 	)
 	(wire
 		(pts
@@ -16372,16 +16692,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.55) (xy 119.38 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f9b2848-73df-4a61-abdf-935d91fa331c")
-	)
-	(wire
-		(pts
 			(xy 349.25 285.75) (xy 359.41 285.75)
 		)
 		(stroke
@@ -16429,6 +16739,16 @@
 			(type default)
 		)
 		(uuid "729db825-190e-4f00-a60d-10345b9dd378")
+	)
+	(wire
+		(pts
+			(xy 116.84 95.25) (xy 116.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73070a82-95fa-4722-bbb9-6264265dd4d0")
 	)
 	(wire
 		(pts
@@ -16612,6 +16932,26 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 93.98) (xy 46.99 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ab96766-f176-44f0-b6e8-21180d884c88")
+	)
+	(wire
+		(pts
+			(xy 88.9 96.52) (xy 88.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ad701e1-f3a0-4b61-8ccf-3952055a7d2a")
+	)
+	(wire
+		(pts
 			(xy 271.78 190.5) (xy 297.18 190.5)
 		)
 		(stroke
@@ -16712,6 +17052,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 39.37) (xy 87.63 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f575433-4e70-43f0-884c-e2d0c70aa257")
+	)
+	(wire
+		(pts
 			(xy 504.19 209.55) (xy 504.19 194.31)
 		)
 		(stroke
@@ -16742,6 +17092,26 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 83.82) (xy 88.9 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb5f427-1852-4bae-b6c4-6ce54ef7fef0")
+	)
+	(wire
+		(pts
+			(xy 58.42 81.28) (xy 58.42 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fbd7380-01da-427d-ac49-a2be29711926")
+	)
+	(wire
+		(pts
 			(xy 177.8 180.34) (xy 186.69 180.34)
 		)
 		(stroke
@@ -16752,7 +17122,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 74.93) (xy 40.64 72.39)
+			(xy 48.26 69.85) (xy 48.26 67.31)
 		)
 		(stroke
 			(width 0)
@@ -16772,6 +17142,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 100.33) (xy 48.26 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8053bfdb-5451-4412-9333-c7a40cab65c4")
+	)
+	(wire
+		(pts
 			(xy 529.59 288.29) (xy 534.67 288.29)
 		)
 		(stroke
@@ -16782,13 +17162,23 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 90.17) (xy 50.8 95.25)
+			(xy 116.84 82.55) (xy 128.27 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8181abc9-a0f1-43ea-8e47-55fd4ea27ae5")
+		(uuid "808fe090-b715-4073-aff7-5de0e9a284ab")
+	)
+	(wire
+		(pts
+			(xy 58.42 50.8) (xy 58.42 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80de94e0-8fe3-46e7-9659-287513e946c3")
 	)
 	(wire
 		(pts
@@ -16829,16 +17219,6 @@
 			(type default)
 		)
 		(uuid "81b91ac9-de82-4a08-9248-ed55ea755751")
-	)
-	(wire
-		(pts
-			(xy 96.52 53.34) (xy 96.52 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "81f16b36-633f-4626-81f1-a02fb0ab9724")
 	)
 	(wire
 		(pts
@@ -16942,6 +17322,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 63.5) (xy 116.84 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8484ea6e-f9c8-4b36-8b59-e30d4999b6a0")
+	)
+	(wire
+		(pts
 			(xy 415.29 214.63) (xy 427.99 214.63)
 		)
 		(stroke
@@ -16972,13 +17362,13 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 41.91) (xy 107.95 45.72)
+			(xy 115.57 52.07) (xy 116.84 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "85b08be7-2b73-4073-811c-43c11da2c4ce")
+		(uuid "85924477-ecfd-4ea7-be9d-b8b545757255")
 	)
 	(wire
 		(pts
@@ -17032,6 +17422,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 82.55) (xy 116.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8768fe8d-d7e3-4798-b772-81475be1d403")
+	)
+	(wire
+		(pts
 			(xy 411.48 106.68) (xy 411.48 102.87)
 		)
 		(stroke
@@ -17049,16 +17449,6 @@
 			(type default)
 		)
 		(uuid "8863da13-50ac-491c-a075-550c76254f1e")
-	)
-	(wire
-		(pts
-			(xy 20.32 102.87) (xy 30.48 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89357fa3-98fe-4491-bc45-8bf44137c887")
 	)
 	(wire
 		(pts
@@ -17082,33 +17472,13 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 62.23) (xy 43.18 62.23)
+			(xy 48.26 57.15) (xy 50.8 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "89d23c20-6e46-4684-9305-849757c46848")
-	)
-	(wire
-		(pts
-			(xy 49.53 95.25) (xy 50.8 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a0d731d-fdb2-4651-af28-350810dc531f")
-	)
-	(wire
-		(pts
-			(xy 107.95 88.9) (xy 107.95 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a23fb62-2608-4037-be9a-8095a05f68ec")
 	)
 	(wire
 		(pts
@@ -17129,6 +17499,16 @@
 			(type default)
 		)
 		(uuid "8a723935-f768-4fff-8f38-8e6679e19382")
+	)
+	(wire
+		(pts
+			(xy 30.48 82.55) (xy 30.48 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a750878-5ec7-47d6-abd3-03cf76fcaf02")
 	)
 	(wire
 		(pts
@@ -17242,6 +17622,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 81.28) (xy 17.78 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df08a6a-032a-4f00-a207-5093af80746f")
+	)
+	(wire
+		(pts
 			(xy 511.81 194.31) (xy 511.81 195.58)
 		)
 		(stroke
@@ -17292,6 +17682,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 50.8) (xy 30.48 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f0396cc-fe73-423b-83fe-4a488a087765")
+	)
+	(wire
+		(pts
 			(xy 509.27 288.29) (xy 508 288.29)
 		)
 		(stroke
@@ -17299,16 +17699,6 @@
 			(type default)
 		)
 		(uuid "8f23734e-1485-4168-a4ce-f54d295d7a0c")
-	)
-	(wire
-		(pts
-			(xy 50.8 115.57) (xy 45.72 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9015ad1c-20ed-49d5-95e6-f2b7e3859d1c")
 	)
 	(wire
 		(pts
@@ -17339,16 +17729,6 @@
 			(type default)
 		)
 		(uuid "912eb933-3b5a-4ec0-9c35-1d522d308937")
-	)
-	(wire
-		(pts
-			(xy 102.87 115.57) (xy 102.87 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "912f536d-9d81-4ce0-9145-7295b87a9008")
 	)
 	(wire
 		(pts
@@ -17432,6 +17812,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 101.6) (xy 106.68 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96361e4c-e119-4b75-aeff-f67a1619cf56")
+	)
+	(wire
+		(pts
 			(xy 440.69 194.31) (xy 441.96 194.31)
 		)
 		(stroke
@@ -17452,6 +17842,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 114.3) (xy 106.68 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "972e0f5f-5311-47f2-9059-a33b2ced09d8")
+	)
+	(wire
+		(pts
 			(xy 435.61 207.01) (xy 440.69 207.01)
 		)
 		(stroke
@@ -17459,16 +17859,6 @@
 			(type default)
 		)
 		(uuid "978b97cc-5adf-4181-b495-847986341dd7")
-	)
-	(wire
-		(pts
-			(xy 97.79 60.96) (xy 97.79 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "978e5f7c-b3b2-4949-81a7-c30805ee2b46")
 	)
 	(wire
 		(pts
@@ -17482,13 +17872,13 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 53.34) (xy 86.36 53.34)
+			(xy 105.41 88.9) (xy 105.41 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97ea501d-84f3-4796-912e-e50c333ce9f0")
+		(uuid "985f1c34-e07a-42da-bebd-fad6904c8841")
 	)
 	(wire
 		(pts
@@ -17519,26 +17909,6 @@
 			(type default)
 		)
 		(uuid "9921bb07-235d-4883-b592-36b5cbdbc602")
-	)
-	(wire
-		(pts
-			(xy 50.8 95.25) (xy 50.8 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9929c33e-5907-4b72-8108-59648f11fc79")
-	)
-	(wire
-		(pts
-			(xy 93.98 53.34) (xy 96.52 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99595c5e-5ed0-4a8d-9e9e-93c6a9c80e01")
 	)
 	(wire
 		(pts
@@ -17602,7 +17972,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 54.61) (xy 39.37 54.61)
+			(xy 44.45 50.8) (xy 46.99 50.8)
 		)
 		(stroke
 			(width 0)
@@ -17652,16 +18022,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 53.34) (xy 107.95 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c16e4c3-a062-433e-a2a7-0242b0183cd3")
-	)
-	(wire
-		(pts
 			(xy 363.22 285.75) (xy 359.41 285.75)
 		)
 		(stroke
@@ -17699,6 +18059,16 @@
 			(type default)
 		)
 		(uuid "9dcacfcf-f1b5-40d7-82dc-cb1e971bb661")
+	)
+	(wire
+		(pts
+			(xy 17.78 38.1) (xy 17.78 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e082966-89d0-4ec7-a3de-080e0bb66a29")
 	)
 	(wire
 		(pts
@@ -17762,16 +18132,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 101.6) (xy 100.33 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0ebd1ba-46ad-4d4f-90ed-3efa3cd513f0")
-	)
-	(wire
-		(pts
 			(xy 130.81 326.39) (xy 134.62 326.39)
 		)
 		(stroke
@@ -17799,6 +18159,26 @@
 			(type default)
 		)
 		(uuid "a147a292-d46a-4223-a353-22ed2164190f")
+	)
+	(wire
+		(pts
+			(xy 46.99 44.45) (xy 38.1 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a18e253a-5d12-4d46-a294-56399dc1cc69")
+	)
+	(wire
+		(pts
+			(xy 88.9 95.25) (xy 95.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19a2bc3-dc81-4eeb-ad14-c1a55588d703")
 	)
 	(wire
 		(pts
@@ -17839,26 +18219,6 @@
 			(type default)
 		)
 		(uuid "a25ab9e8-256f-4716-8bf5-2f9c9c4f1275")
-	)
-	(wire
-		(pts
-			(xy 85.09 53.34) (xy 85.09 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2f3e432-d2d2-4ff8-8cf7-e635da41f9dd")
-	)
-	(wire
-		(pts
-			(xy 96.52 49.53) (xy 87.63 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a337b3b7-06b6-4c72-a2c7-308fdfd10e82")
 	)
 	(wire
 		(pts
@@ -17942,26 +18302,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 114.3) (xy 102.87 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6b2ec01-3b00-4e21-9091-ca0efd59438f")
-	)
-	(wire
-		(pts
-			(xy 39.37 95.25) (xy 39.37 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6d877c6-12e9-42d6-96eb-eca9448f49c6")
-	)
-	(wire
-		(pts
 			(xy 349.25 214.63) (xy 353.06 214.63)
 		)
 		(stroke
@@ -17969,6 +18309,16 @@
 			(type default)
 		)
 		(uuid "a71b22c9-6227-494b-8a30-1386a38b16b0")
+	)
+	(wire
+		(pts
+			(xy 76.2 39.37) (xy 76.2 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7203132-1224-4e7e-84a5-574ce91010fd")
 	)
 	(wire
 		(pts
@@ -17989,16 +18339,6 @@
 			(type default)
 		)
 		(uuid "a7d5103b-ea9d-432c-89df-991c2a90bcca")
-	)
-	(wire
-		(pts
-			(xy 96.52 93.98) (xy 96.52 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7e5b8d0-1a5c-4622-82d6-5944823bfa86")
 	)
 	(wire
 		(pts
@@ -18062,6 +18402,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 71.12) (xy 106.68 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa0a1efd-ec66-44f0-b471-8dd3eb5d59fe")
+	)
+	(wire
+		(pts
 			(xy 518.16 252.73) (xy 506.73 252.73)
 		)
 		(stroke
@@ -18092,13 +18442,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 114.3) (xy 97.79 114.3)
+			(xy 105.41 45.72) (xy 105.41 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ab40a221-38ed-4a5e-89d3-d2638498c16a")
+		(uuid "abc332a6-af5a-4da3-940f-ffa2e9eeec77")
 	)
 	(wire
 		(pts
@@ -18152,6 +18502,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 88.9) (xy 116.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeef0c2b-7dff-419a-aafa-4f82fa8b1bfa")
+	)
+	(wire
+		(pts
 			(xy 332.74 144.78) (xy 360.68 144.78)
 		)
 		(stroke
@@ -18182,16 +18542,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 66.04) (xy 107.95 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af525590-7a36-49ec-8111-141c65e9e238")
-	)
-	(wire
-		(pts
 			(xy 58.42 290.83) (xy 68.58 290.83)
 		)
 		(stroke
@@ -18212,13 +18562,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 93.98) (xy 107.95 93.98)
+			(xy 106.68 58.42) (xy 109.22 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0bbe975-18e5-44a9-b6b4-91fcacdc5408")
+		(uuid "b0ca00a5-cecc-4741-a3a5-7a7a92b505f8")
 	)
 	(wire
 		(pts
@@ -18322,6 +18672,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 81.28) (xy 17.78 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b42cb6c3-e224-44da-b08a-7504c6e3be1f")
+	)
+	(wire
+		(pts
 			(xy 278.13 198.12) (xy 297.18 198.12)
 		)
 		(stroke
@@ -18392,6 +18752,26 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 52.07) (xy 30.48 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6161af0-0cbb-4cdf-a616-3c688298dfeb")
+	)
+	(wire
+		(pts
+			(xy 116.84 39.37) (xy 128.27 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6435ba5-bdaa-4378-b652-de1f59be626e")
+	)
+	(wire
+		(pts
 			(xy 83.82 340.36) (xy 81.28 340.36)
 		)
 		(stroke
@@ -18399,16 +18779,6 @@
 			(type default)
 		)
 		(uuid "b644b139-67fe-4662-85e0-c947dad6ab42")
-	)
-	(wire
-		(pts
-			(xy 50.8 49.53) (xy 50.8 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b68d7dd2-0c3e-470d-8913-e6b59e40192e")
 	)
 	(wire
 		(pts
@@ -18432,6 +18802,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 82.55) (xy 87.63 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b70d7fc2-bcb5-4b36-b6fa-b87d18b29633")
+	)
+	(wire
+		(pts
 			(xy 24.13 261.62) (xy 24.13 262.89)
 		)
 		(stroke
@@ -18439,6 +18819,16 @@
 			(type default)
 		)
 		(uuid "b746bfe5-7480-4201-8650-8fdb659edb81")
+	)
+	(wire
+		(pts
+			(xy 115.57 95.25) (xy 116.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7625597-0004-4290-89d2-363af8cc93c3")
 	)
 	(wire
 		(pts
@@ -18479,6 +18869,16 @@
 			(type default)
 		)
 		(uuid "b84ece43-1b50-4777-b798-285ae8e042ef")
+	)
+	(wire
+		(pts
+			(xy 58.42 87.63) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b872eaaa-980b-4ec4-871f-f5c7e755c002")
 	)
 	(wire
 		(pts
@@ -18539,6 +18939,16 @@
 			(type default)
 		)
 		(uuid "badf5d2f-b735-4f93-a467-b02deba64d3d")
+	)
+	(wire
+		(pts
+			(xy 53.34 114.3) (xy 53.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb3c2262-fee2-4706-beca-8935ec5b3e06")
 	)
 	(wire
 		(pts
@@ -18622,16 +19032,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 54.61) (xy 50.8 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd2b0498-f90d-488d-a062-343caa9dbf50")
-	)
-	(wire
-		(pts
 			(xy 80.01 167.64) (xy 82.55 167.64)
 		)
 		(stroke
@@ -18659,6 +19059,16 @@
 			(type default)
 		)
 		(uuid "be47eb3d-534c-4d5b-be18-6f92161760ed")
+	)
+	(wire
+		(pts
+			(xy 30.48 39.37) (xy 30.48 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be5caadc-37fa-4df8-a021-5b70aed46697")
 	)
 	(wire
 		(pts
@@ -18692,6 +19102,26 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 50.8) (xy 49.53 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c042fb64-f75c-4c75-b507-49e579e6a7cd")
+	)
+	(wire
+		(pts
+			(xy 27.94 100.33) (xy 38.1 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c04866d6-7c77-413e-88db-20fd96e699d2")
+	)
+	(wire
+		(pts
 			(xy 113.03 146.05) (xy 111.76 146.05)
 		)
 		(stroke
@@ -18699,6 +19129,16 @@
 			(type default)
 		)
 		(uuid "c0528e59-498a-42d8-a74b-e0aa6e497b09")
+	)
+	(wire
+		(pts
+			(xy 57.15 93.98) (xy 58.42 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c086a8a3-871c-4784-a803-fec4799fc038")
 	)
 	(wire
 		(pts
@@ -18822,16 +19262,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 93.98) (xy 99.06 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4341311-f8a1-477e-baae-346ca17e2810")
-	)
-	(wire
-		(pts
 			(xy 323.85 309.88) (xy 347.98 309.88)
 		)
 		(stroke
@@ -18859,6 +19289,16 @@
 			(type default)
 		)
 		(uuid "c556c8f7-2594-4631-9251-d2b18d00d219")
+	)
+	(wire
+		(pts
+			(xy 76.2 82.55) (xy 76.2 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5afa158-0e78-4979-b73b-4c6e033ce2b6")
 	)
 	(wire
 		(pts
@@ -18972,6 +19412,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 38.1) (xy 17.78 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ee26af-a33b-4329-b85b-2d38d63796af")
+	)
+	(wire
+		(pts
 			(xy 256.54 279.4) (xy 256.54 280.67)
 		)
 		(stroke
@@ -18979,16 +19429,6 @@
 			(type default)
 		)
 		(uuid "c9190a90-2e5d-4ec2-ac18-b6b462cd59ba")
-	)
-	(wire
-		(pts
-			(xy 102.87 73.66) (xy 97.79 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9671775-f8cc-4483-92dd-a2f33c41dbdb")
 	)
 	(wire
 		(pts
@@ -19062,13 +19502,23 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 102.87) (xy 43.18 102.87)
+			(xy 105.41 52.07) (xy 107.95 52.07)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cdf44e59-4956-4ed3-9604-b8d072cc1ef1")
+		(uuid "cc03e4e6-ef56-4b9a-98cb-48e70a14d39f")
+	)
+	(wire
+		(pts
+			(xy 106.68 101.6) (xy 109.22 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cde856b5-d10e-4a8a-897e-e10dc9e26550")
 	)
 	(wire
 		(pts
@@ -19082,6 +19532,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 113.03) (xy 48.26 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce43895d-d226-4fd0-873b-407cddc3902a")
+	)
+	(wire
+		(pts
 			(xy 521.97 88.9) (xy 521.97 87.63)
 		)
 		(stroke
@@ -19092,6 +19552,16 @@
 	)
 	(wire
 		(pts
+			(xy 86.36 101.6) (xy 96.52 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cee21d96-8f87-41ce-b57f-c534e1c58965")
+	)
+	(wire
+		(pts
 			(xy 151.13 95.25) (xy 152.4 95.25)
 		)
 		(stroke
@@ -19099,16 +19569,6 @@
 			(type default)
 		)
 		(uuid "cef75ef8-ffec-435d-9f91-8d1c3c7c0105")
-	)
-	(wire
-		(pts
-			(xy 40.64 102.87) (xy 40.64 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf025f20-53b8-40ec-bf96-8506dee1d80e")
 	)
 	(wire
 		(pts
@@ -19162,6 +19622,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 88.9) (xy 96.52 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d07d65fa-381d-4971-8272-a7e597fe66cb")
+	)
+	(wire
+		(pts
 			(xy 104.14 153.67) (xy 100.33 153.67)
 		)
 		(stroke
@@ -19172,6 +19642,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 38.1) (xy 40.64 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d17abe6f-3d42-4f0f-8df1-7b25e87a376b")
+	)
+	(wire
+		(pts
 			(xy 567.69 220.98) (xy 554.99 220.98)
 		)
 		(stroke
@@ -19179,6 +19659,16 @@
 			(type default)
 		)
 		(uuid "d2b9c3b8-e32c-48c2-8d76-56c7a991bcd8")
+	)
+	(wire
+		(pts
+			(xy 111.76 114.3) (xy 106.68 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3417e36-c048-4530-9c94-75711c89c1f0")
 	)
 	(wire
 		(pts
@@ -19252,16 +19742,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 50.8) (xy 30.48 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d66fe788-5ab0-409d-9ed9-becd3d26584f")
-	)
-	(wire
-		(pts
 			(xy 209.55 187.96) (xy 223.52 187.96)
 		)
 		(stroke
@@ -19299,26 +19779,6 @@
 			(type default)
 		)
 		(uuid "d6d6f3a9-bddb-4b99-a1ce-45a2f0109d45")
-	)
-	(wire
-		(pts
-			(xy 39.37 95.25) (xy 41.91 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6e81833-2494-4623-a51d-fdd5a6d995e8")
-	)
-	(wire
-		(pts
-			(xy 39.37 91.44) (xy 30.48 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7310b14-e62c-4f7c-9f82-170ef8c396d4")
 	)
 	(wire
 		(pts
@@ -19412,6 +19872,26 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 50.8) (xy 36.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da04e7c4-aed0-4940-b369-5011c1d72e38")
+	)
+	(wire
+		(pts
+			(xy 111.76 72.39) (xy 111.76 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da82a1ab-6003-461b-a0e1-07ee29a58cc9")
+	)
+	(wire
+		(pts
 			(xy 83.82 339.09) (xy 83.82 340.36)
 		)
 		(stroke
@@ -19422,6 +19902,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 52.07) (xy 116.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db02d473-dced-4340-9503-fe092fabbfca")
+	)
+	(wire
+		(pts
+			(xy 30.48 93.98) (xy 30.48 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db4b49f8-338b-49ba-956a-666e22014ded")
+	)
+	(wire
+		(pts
 			(xy 162.56 95.25) (xy 162.56 100.33)
 		)
 		(stroke
@@ -19429,6 +19929,16 @@
 			(type default)
 		)
 		(uuid "db91cba9-6557-4e6c-b9c8-27cd1403f156")
+	)
+	(wire
+		(pts
+			(xy 46.99 87.63) (xy 38.1 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db95328f-b872-43d5-a853-0c18678e944d")
 	)
 	(wire
 		(pts
@@ -19472,23 +19982,13 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 54.61) (xy 50.8 54.61)
+			(xy 57.15 50.8) (xy 58.42 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "dcc18055-39ae-4cdf-b8af-9ba9d1a7300f")
-	)
-	(wire
-		(pts
-			(xy 97.79 73.66) (xy 97.79 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dce04a16-591d-4a25-ba60-cd07efd7a46d")
 	)
 	(wire
 		(pts
@@ -19509,16 +20009,6 @@
 			(type default)
 		)
 		(uuid "dd56bcab-1e5a-49a8-9878-6ec6415c6b42")
-	)
-	(wire
-		(pts
-			(xy 45.72 115.57) (xy 40.64 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd6ef439-5453-480d-9c37-0a977d2ca0db")
 	)
 	(wire
 		(pts
@@ -19599,6 +20089,16 @@
 			(type default)
 		)
 		(uuid "e0ce4218-ecff-49cb-b555-011f21d5addb")
+	)
+	(wire
+		(pts
+			(xy 102.87 52.07) (xy 105.41 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1710f81-2b50-409b-9ba4-b85a71275e49")
 	)
 	(wire
 		(pts
@@ -19692,6 +20192,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 100.33) (xy 48.26 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e568142f-3a48-46df-aba3-ed118a33648f")
+	)
+	(wire
+		(pts
 			(xy 176.53 100.33) (xy 185.42 100.33)
 		)
 		(stroke
@@ -19749,6 +20259,16 @@
 			(type default)
 		)
 		(uuid "e71be6ce-2314-46f5-8959-58847ae7e982")
+	)
+	(wire
+		(pts
+			(xy 111.76 115.57) (xy 111.76 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e85d333b-d747-47ea-b8c9-26ee9769a76f")
 	)
 	(wire
 		(pts
@@ -19882,7 +20402,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 62.23) (xy 40.64 64.77)
+			(xy 48.26 57.15) (xy 48.26 59.69)
 		)
 		(stroke
 			(width 0)
@@ -19909,16 +20429,6 @@
 			(type default)
 		)
 		(uuid "ec21e883-cc92-45bb-af36-f3659650fa28")
-	)
-	(wire
-		(pts
-			(xy 107.95 41.91) (xy 119.38 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec946088-9d14-42a3-98d5-f29ad2d492af")
 	)
 	(wire
 		(pts
@@ -19972,6 +20482,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 113.03) (xy 53.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09e4b40-92a8-402e-88a9-2480c6053489")
+	)
+	(wire
+		(pts
 			(xy 320.04 182.88) (xy 320.04 186.69)
 		)
 		(stroke
@@ -19989,16 +20509,6 @@
 			(type default)
 		)
 		(uuid "f143c8aa-172b-4dad-b7a3-54bafacd60c6")
-	)
-	(wire
-		(pts
-			(xy 107.95 73.66) (xy 102.87 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1579ce0-ae66-4302-89cd-5b38d35c6127")
 	)
 	(wire
 		(pts
@@ -20082,13 +20592,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 95.25) (xy 39.37 95.25)
+			(xy 86.36 58.42) (xy 96.52 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f381d055-96c8-475e-ad5c-01d093a8569a")
+		(uuid "f3561e9d-28f5-43a6-bacb-a5df83cea3f2")
 	)
 	(wire
 		(pts
@@ -20182,6 +20692,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 105.41) (xy 58.42 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f67bc103-5345-466e-8c41-90ee4ca9af64")
+	)
+	(wire
+		(pts
 			(xy 501.65 292.1) (xy 501.65 288.29)
 		)
 		(stroke
@@ -20192,7 +20712,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 74.93) (xy 40.64 74.93)
+			(xy 53.34 69.85) (xy 48.26 69.85)
 		)
 		(stroke
 			(width 0)
@@ -20249,16 +20769,6 @@
 			(type default)
 		)
 		(uuid "f92ed8ef-22c6-4c5c-8807-5c2b573d6342")
-	)
-	(wire
-		(pts
-			(xy 27.94 95.25) (xy 29.21 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f97205d0-9279-4685-b187-b0e6e403ea21")
 	)
 	(wire
 		(pts
@@ -20379,6 +20889,16 @@
 			(type default)
 		)
 		(uuid "fd6e767a-5bdd-4848-af2f-58910f4b0482")
+	)
+	(wire
+		(pts
+			(xy 58.42 44.45) (xy 58.42 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7340ef-3bb2-4145-9c95-316c3d0ee907")
 	)
 	(wire
 		(pts
@@ -20609,7 +21129,7 @@
 		(uuid bc4c334e-c42d-4c3d-9c45-f4ce78806973)
 	)
 	(rectangle
-		(start 13.97 38.1)
+		(start 13.97 28.575)
 		(end 133.35 125.73)
 		(stroke
 			(width 0)
@@ -21453,16 +21973,6 @@
 		)
 		(uuid "0458950d-6a86-4834-9777-935d0b539944")
 	)
-	(text "Channel 3\n"
-		(exclude_from_sim no)
-		(at 101.6 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0a06e43b-43fe-4a18-bf98-8895ee783251")
-	)
 	(text "Switching Frequency = 1.1MHz\nAP63203WU features +-6% FSS, EMI reduction \nand short circuit protection"
 		(exclude_from_sim no)
 		(at 477.52 311.15 0)
@@ -21498,23 +22008,13 @@
 	)
 	(text "Channel 1"
 		(exclude_from_sim no)
-		(at 44.45 41.91 0)
+		(at 45.72 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "1f174ca9-f09a-4d02-bb3d-8c7faa6f765c")
-	)
-	(text "Channel 2\n"
-		(exclude_from_sim no)
-		(at 44.45 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "1f3349bf-74c2-48d7-8023-4fd75e020dc9")
 	)
 	(text "GNSS GPS Circuitry\n"
 		(exclude_from_sim no)
@@ -21591,6 +22091,16 @@
 		)
 		(uuid "4382d5d5-5e85-45e5-a90b-f68da8c7750b")
 	)
+	(text "Channel 4\n"
+		(exclude_from_sim no)
+		(at 104.14 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5280ba4c-bcea-4125-9890-7d22c83a6411")
+	)
 	(text "Power MUX"
 		(exclude_from_sim no)
 		(at 530.86 184.15 0)
@@ -21622,6 +22132,16 @@
 			)
 		)
 		(uuid "5c76babf-863e-480c-8230-3d5516d1ddbb")
+	)
+	(text "Channel 3\n"
+		(exclude_from_sim no)
+		(at 104.14 35.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6a7db710-ce29-49fc-ac70-62e9a41e8a85")
 	)
 	(text "Continuity check voltage divider\nCONTI_Cx Vout=11.1V(1k/(1k+3.44k))=2.5V"
 		(exclude_from_sim no)
@@ -21842,16 +22362,6 @@
 		)
 		(uuid "c0c34022-b182-4561-8951-28ced6382036")
 	)
-	(text "Channel 4\n"
-		(exclude_from_sim no)
-		(at 101.6 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d012774a-7d35-4637-8226-c59f977ca1f6")
-	)
 	(text "R3,R2=22R"
 		(exclude_from_sim no)
 		(at 129.54 318.77 0)
@@ -21904,6 +22414,16 @@
 			)
 		)
 		(uuid "e8288833-3c81-4d6c-8bcb-89fc0e655122")
+	)
+	(text "Channel 2"
+		(exclude_from_sim no)
+		(at 45.72 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e88b8b9f-7181-4b8d-82b2-e093fc7aa789")
 	)
 	(text "Boot mode"
 		(exclude_from_sim no)
@@ -21970,17 +22490,6 @@
 		)
 		(uuid "045e5b37-5e4d-4d7c-92c0-3c734c9ab202")
 	)
-	(label "IGN_4"
-		(at 77.47 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "049afe96-b5a9-4fea-bfb6-bd8775216017")
-	)
 	(label "ULN_3V3"
 		(at 468.63 194.31 180)
 		(fields_autoplaced yes)
@@ -21991,6 +22500,28 @@
 			(justify right bottom)
 		)
 		(uuid "06bf0e51-18eb-45a9-8fe5-293164e8e2eb")
+	)
+	(label "BATT_OUT"
+		(at 69.85 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08dfb0aa-2ff0-48e8-9b8f-a8925c2e2585")
+	)
+	(label "CONTI_C4"
+		(at 99.06 82.55 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09f98b09-fe86-4004-a794-db9954d20085")
 	)
 	(label "DVP_Y6"
 		(at 262.89 203.2 180)
@@ -22102,6 +22633,17 @@
 		)
 		(uuid "20dc12e9-5b13-4448-8c12-881a8ecea7b3")
 	)
+	(label "BATT_OUT"
+		(at 128.27 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "224e5eae-6ef6-4c04-bf32-ce23d94b0bb7")
+	)
 	(label "STM_I2C_SCL"
 		(at 402.59 298.45 0)
 		(fields_autoplaced yes)
@@ -22190,17 +22732,6 @@
 		)
 		(uuid "2dec8563-b6eb-488f-ba4f-23c62c135262")
 	)
-	(label "CONTI_C3"
-		(at 87.63 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "32ec25e5-1649-425b-a688-7cd694127e96")
-	)
 	(label "ESP_I2C_SDA"
 		(at 360.68 148.59 180)
 		(fields_autoplaced yes)
@@ -22233,6 +22764,17 @@
 			(justify left bottom)
 		)
 		(uuid "3465453a-51e7-49b3-96ff-3b2a8ba98128")
+	)
+	(label "IGN_2"
+		(at 27.94 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "346ab40c-000e-4e08-9763-41ec2b1ea634")
 	)
 	(label "STM_I2C_SDA"
 		(at 302.26 309.88 0)
@@ -22421,17 +22963,6 @@
 		)
 		(uuid "45a35083-f2e4-4905-94b0-6f12059c73fc")
 	)
-	(label "IGN_2"
-		(at 20.32 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46977341-7ced-4e08-bd52-c48e17616536")
-	)
 	(label "HSE_IN"
 		(at 58.42 278.13 0)
 		(fields_autoplaced yes)
@@ -22575,16 +23106,16 @@
 		)
 		(uuid "59a5e0f3-58c0-4f7f-8a11-64c554b2c632")
 	)
-	(label "IGN_3"
-		(at 77.47 60.96 0)
+	(label "BATT_OUT"
+		(at 128.27 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "59f72fa0-d1c4-4216-84df-4eba6b7cf01f")
+		(uuid "5e65609d-0321-48a7-a223-fc96d8931bd3")
 	)
 	(label "STM_I2C_SDA"
 		(at 55.88 323.85 0)
@@ -22619,17 +23150,6 @@
 		)
 		(uuid "611081b6-c6e3-42c1-a6d2-3b48810a00f1")
 	)
-	(label "BATT_OUT"
-		(at 119.38 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "61e13a95-a6cf-45c8-8e2e-a0e2691db938")
-	)
 	(label "STM_UART_TX"
 		(at 327.66 144.78 180)
 		(fields_autoplaced yes)
@@ -22651,6 +23171,17 @@
 			(justify left bottom)
 		)
 		(uuid "67434612-bdda-47ec-9baa-d4823288f22a")
+	)
+	(label "CONTI_C2"
+		(at 40.64 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67ff573c-8a20-40b7-b20d-6584d3597bad")
 	)
 	(label "STM_I2C_SCL"
 		(at 332.74 144.78 0)
@@ -22675,13 +23206,13 @@
 		(uuid "71d220c0-fcef-4b7c-bd03-58a0f0d19933")
 	)
 	(label "CONTI_C1"
-		(at 30.48 50.8 0)
+		(at 40.64 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "71e12bee-c082-4b41-9162-af90dfd58a2d")
 	)
@@ -23004,28 +23535,6 @@
 		)
 		(uuid "9996ff62-28bb-4d3d-a074-ba484f4dfd0e")
 	)
-	(label "CONTI_C4"
-		(at 87.63 90.17 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9ca34da7-6e20-4591-82f6-496382839137")
-	)
-	(label "CONTI_C2"
-		(at 30.48 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9cfbb4a4-8e3f-4439-8fc9-20ce83c35496")
-	)
 	(label "CAM_RESET"
 		(at 252.73 224.79 180)
 		(fields_autoplaced yes)
@@ -23070,6 +23579,17 @@
 		)
 		(uuid "a411f542-e49a-416e-814c-98e6c394d57d")
 	)
+	(label "IGN_4"
+		(at 86.36 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a488c432-95cd-4b69-8944-43b21b926fd6")
+	)
 	(label "DVDD_1V5"
 		(at 262.89 193.04 180)
 		(fields_autoplaced yes)
@@ -23113,6 +23633,17 @@
 			(justify left bottom)
 		)
 		(uuid "afbe7b5f-60d8-47b5-861c-e4f9523c8b00")
+	)
+	(label "CONTI_C3"
+		(at 99.06 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b0d0addc-b881-40f4-9b95-661bc62887fd")
 	)
 	(label "ESP_EN"
 		(at 76.2 163.83 0)
@@ -23368,7 +23899,7 @@
 		(uuid "ca052dc0-d983-4ed8-bd5b-f3088ff90925")
 	)
 	(label "BATT_OUT"
-		(at 62.23 43.18 180)
+		(at 69.85 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23532,17 +24063,6 @@
 		)
 		(uuid "e46beb81-feff-4f00-ac7c-8e3918f7d8a6")
 	)
-	(label "BATT_OUT"
-		(at 62.23 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e67dd39a-72ae-43b6-99af-f88ac1af767e")
-	)
 	(label "IO16"
 		(at 278.13 209.55 0)
 		(fields_autoplaced yes)
@@ -23609,6 +24129,17 @@
 		)
 		(uuid "efa6ff89-73f2-4f52-915b-53b44fb4c999")
 	)
+	(label "IGN_3"
+		(at 86.36 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "efbf0fd5-0214-4d0f-a2e9-71b23009075b")
+	)
 	(label "STM_I2C_SDA"
 		(at 433.07 160.02 180)
 		(fields_autoplaced yes)
@@ -23621,7 +24152,7 @@
 		(uuid "f0d60f7e-4f78-4e4d-bdf0-69b87b8d5ede")
 	)
 	(label "IGN_1"
-		(at 20.32 62.23 0)
+		(at 27.94 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -23652,17 +24183,6 @@
 			(justify right bottom)
 		)
 		(uuid "f985c14a-0eca-4a4a-9115-6bcd4896d01f")
-	)
-	(label "BATT_OUT"
-		(at 119.38 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "fa670ea7-267f-462d-886d-9e54d30af82e")
 	)
 	(label "IO13"
 		(at 278.13 205.74 0)
@@ -23874,99 +24394,34 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 85.09 54.61 0)
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 63.5 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "034d5446-5af3-44c7-83dd-5f4fcb0d354d")
-		(property "Reference" "#PWR080"
-			(at 85.09 60.96 0)
+		(uuid "04f833e5-61ad-45c7-baef-a4b7a318c61c")
+		(property "Reference" "J5"
+			(at 66.04 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 85.09 59.69 0)
+		(property "Value" "Screw_Terminal"
+			(at 59.69 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8c479ca-fe75-4322-ba07-9c8cf28738d0")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "#PWR080")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 60.96 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "05f2b609-b156-435b-b1d0-65ee19712873")
-		(property "Reference" "R57"
-			(at 91.44 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 91.44 58.928 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.44 62.738 90)
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23975,7 +24430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 60.96 0)
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23983,25 +24438,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 91.44 60.96 0)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 63.5 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "be280620-41b4-48f3-9e58-08a1ed1ce275")
 		)
 		(pin "1"
-			(uuid "d3defb15-fbce-490e-8e4c-e3f253169c54")
+			(uuid "65841393-6ddc-4213-86b4-fab5ae987022")
+		)
+		(pin "2"
+			(uuid "0e170de5-213d-4942-982a-ee3464259e01")
 		)
 		(instances
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R57")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -24140,6 +24595,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 58.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08c2445a-0990-468b-b586-65c47328277e")
+		(property "Reference" "R26"
+			(at 100.33 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 100.33 56.388 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.33 60.198 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a8c18e0-2f4b-4dca-9a8d-9478342eed1a")
+		)
+		(pin "1"
+			(uuid "a0ae5f0f-3ea4-4a1c-9189-b44ba6e530f1")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -24329,6 +24851,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 30.48 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0b93c6ea-93f1-4295-b813-1df8d11404f6")
+		(property "Reference" "#PWR079"
+			(at 30.48 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e68a1a3-a004-43ef-8d2d-778b294c84d0")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 58.42 257.81 0)
 		(unit 1)
@@ -24392,6 +24981,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e07c6d9-71fc-4ada-ab85-39faba08e26f")
+		(property "Reference" "R25"
+			(at 99.06 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 99.06 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.06 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1da43567-220a-454c-8195-c8d73f74dd2a")
+		)
+		(pin "1"
+			(uuid "25959a18-6e69-47da-ba7f-582480f457e0")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -24593,6 +25249,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 76.2 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "11835832-baf5-483a-b078-8292c2a02d38")
+		(property "Reference" "#PWR081"
+			(at 76.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 73.66 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 76.2 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bc34a7d-287e-4ca8-b684-e91886846f66")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -25351,6 +26074,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 83.82 82.55 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d78b719-79e5-4427-858c-19361bc092a8")
+		(property "Reference" "R23"
+			(at 83.82 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 83.82 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 83.82 80.772 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f923e0a5-7333-43e5-8897-bd020bacc159")
+		)
+		(pin "1"
+			(uuid "fdd30fc8-b6d2-4de8-8688-4ca8ffa1b408")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 121.92 252.73 90)
 		(unit 1)
@@ -25696,6 +26486,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 121.92 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "221703ff-ef6b-4dd9-b29d-29646be69d8b")
+		(property "Reference" "J7"
+			(at 124.46 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal"
+			(at 118.11 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c65bda1-6436-4179-848e-c5cc2c971442")
+		)
+		(pin "2"
+			(uuid "e7636d63-137f-4600-99b2-4d2290230aa2")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 504.19 213.36 180)
 		(unit 1)
@@ -25966,32 +26825,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 102.87 53.34 90)
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 17.78 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "28362ca0-8de8-429b-ab29-05fecd3e9ec9")
-		(property "Reference" "R61"
-			(at 102.87 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.44k"
-			(at 102.87 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 102.87 55.118 90)
+		(uuid "262175d9-8e8d-4bb2-8935-6f9d8449c811")
+		(property "Reference" "#PWR076"
+			(at 17.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25999,8 +26843,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 102.87 53.34 0)
+		(property "Value" "+3.3V"
+			(at 15.24 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26008,8 +26861,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 102.87 53.34 0)
+		(property "Datasheet" ""
+			(at 17.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26017,16 +26870,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "95f5a6cf-6ab8-449d-9654-599fb1f16441")
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 17.78 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "0ff5fd9c-f5b1-47ea-9589-b810ace9de4a")
+			(uuid "617a747c-beb5-403f-891b-a296be61810b")
 		)
 		(instances
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R61")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -26373,6 +27232,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 41.91 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c2aa209-9aff-46a6-9ec1-938dba2a39fb")
+		(property "Reference" "R19"
+			(at 41.91 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 41.91 98.298 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 41.91 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51ef1a8e-ffb6-4c47-bcea-dcfeea8291b6")
+		)
+		(pin "1"
+			(uuid "7cd7cbea-c393-49e0-b2d4-ef3b9c748c8c")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
 		(at 455.93 306.07 270)
@@ -26577,6 +27503,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32e3525c-1e2a-4c8e-9581-991d543d2a47")
+		(property "Reference" "#PWR083"
+			(at 88.9 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfdc98dd-7238-4373-be2d-7788f75a4fd5")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 132.08 251.46 0)
 		(unit 1)
@@ -26644,7 +27637,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_GDS")
-		(at 48.26 62.23 0)
+		(at 55.88 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26653,7 +27646,7 @@
 		(fields_autoplaced yes)
 		(uuid "34fd020f-8a4d-4adb-8496-f298f463f7c1")
 		(property "Reference" "Q1"
-			(at 54.61 60.9599 0)
+			(at 62.23 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26662,7 +27655,7 @@
 			)
 		)
 		(property "Value" "IRF530SPBF"
-			(at 54.61 63.4999 0)
+			(at 62.23 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26671,7 +27664,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 53.34 59.69 0)
+			(at 60.96 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26680,7 +27673,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 62.23 0)
+			(at 55.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26689,7 +27682,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 48.26 62.23 0)
+			(at 55.88 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26710,6 +27703,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 111.76 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "370ebec6-3c7f-4313-86d1-6caa69f2e82d")
+		(property "Reference" "R53"
+			(at 111.76 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.44k"
+			(at 111.76 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 111.76 97.028 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 111.76 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3b3f995-e973-46c8-b472-a228643193c4")
+		)
+		(pin "1"
+			(uuid "c6a61a95-53f0-480c-b9f5-e985f54f4dea")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -26844,6 +27904,79 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS_GDS")
+		(at 55.88 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "393e76d0-4556-433d-94ee-192571b2e4ed")
+		(property "Reference" "Q4"
+			(at 62.23 99.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF530SPBF"
+			(at 62.23 101.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 60.96 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 55.88 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fe1e15b9-eeb6-4edf-8516-b10f10fe36e4")
+		)
+		(pin "3"
+			(uuid "f48458b3-149a-4a60-b4ac-8a5e65f37e9b")
+		)
+		(pin "1"
+			(uuid "bcf1912c-1de5-4e06-9b6e-fbef30aaf9fc")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -27051,6 +28184,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 91.44 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f6247a8-428c-43a4-9c50-f7bde4267c3f")
+		(property "Reference" "Q6"
+			(at 86.36 46.9901 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN"
+			(at 86.36 44.4501 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 27.94 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 91.44 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "cffd05d8-ae4e-41b5-89f4-07bb521b4463")
+		)
+		(pin "1"
+			(uuid "bbbb513b-d149-4f4b-90a9-d5588f24df57")
+		)
+		(pin "2"
+			(uuid "2f66d3ca-b2a5-4e40-8e2b-836d1fccb1f2")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 181.61 264.16 0)
 		(unit 1)
@@ -27114,6 +28347,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 48.26 106.68 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3ff6b6b9-643a-420c-816a-220f322ac937")
+		(property "Reference" "R20"
+			(at 44.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 44.45 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 50.038 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 48.26 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d0deecfd-d6ff-4bd0-bf04-2a8e6730e7a2")
+		)
+		(pin "1"
+			(uuid "fc5d3f7d-6f70-4b8b-9fdd-a8c547ade5c2")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -27388,79 +28688,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Q_NMOS_GDS")
-		(at 105.41 60.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "435b18d3-b92b-401d-98d1-02cba728842c")
-		(property "Reference" "Q3"
-			(at 111.76 59.6899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF530SPBF"
-			(at 111.76 62.2299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 110.49 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 105.41 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cb9d283a-785b-4079-9045-a2c4f8a876ef")
-		)
-		(pin "3"
-			(uuid "3b4b47fc-97b7-4e1b-b60c-1e204b55f800")
-		)
-		(pin "1"
-			(uuid "1b5c45a4-8b7c-411a-b748-2ca86d448f42")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 163.83 182.88 270)
 		(unit 1)
@@ -27666,73 +28893,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 102.87 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "48fe1349-c9d2-49f2-bdd2-b55606287ae7")
-		(property "Reference" "#PWR083"
-			(at 102.87 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c133d804-0aef-411b-9d46-e7d56f927d15")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "#PWR083")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 146.05 90)
 		(unit 1)
@@ -27796,6 +28956,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 17.78 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b7f4055-66ac-414b-8540-5b5a3aef3cb2")
+		(property "Reference" "#PWR078"
+			(at 17.78 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 15.24 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 17.78 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0dc0c236-6153-4742-8593-3995aff29296")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -27870,7 +29097,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 54.61 90)
+		(at 53.34 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27878,7 +29105,7 @@
 		(dnp no)
 		(uuid "4d4f8c27-9858-40e1-9335-74795fce71a8")
 		(property "Reference" "R50"
-			(at 45.72 54.61 90)
+			(at 53.34 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27886,7 +29113,7 @@
 			)
 		)
 		(property "Value" "3.44k"
-			(at 45.72 52.578 90)
+			(at 53.34 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27894,7 +29121,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 45.72 56.388 90)
+			(at 53.34 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27903,7 +29130,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 54.61 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27912,7 +29139,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 45.72 54.61 0)
+			(at 53.34 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27930,6 +29157,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4eeadb2b-b1c1-4c05-a8ce-fe71a9314007")
+		(property "Reference" "R27"
+			(at 100.33 101.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 100.33 99.568 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 100.33 103.378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "352603f5-4142-467a-8c16-57019bf83ed9")
+		)
+		(pin "1"
+			(uuid "89765c05-0efc-4f4e-9409-ca2dc76288a3")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -28133,73 +29427,6 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 85.09 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "53369e07-2bcb-4fe4-b7d5-feabf817839a")
-		(property "Reference" "#PWR081"
-			(at 85.09 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 85.09 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7083207e-f6a0-4bd6-b365-c5d40e1b2268")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -28816,6 +30043,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 121.92 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5cf808dc-cf63-4668-8a4c-5687b8761299")
+		(property "Reference" "J6"
+			(at 124.46 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal"
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 121.92 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e9dd689-bcfa-4ab4-b682-0ea37d35f346")
+		)
+		(pin "2"
+			(uuid "f7f7a18c-2863-4d4b-a185-f268b47d272d")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 359.41 273.05 180)
 		(unit 1)
@@ -29018,7 +30314,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 34.29 62.23 90)
+		(at 41.91 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29026,7 +30322,7 @@
 		(dnp no)
 		(uuid "606ed133-7914-43c4-aefb-5f0322f75873")
 		(property "Reference" "R46"
-			(at 34.29 62.23 90)
+			(at 41.91 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29034,7 +30330,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 34.29 60.198 90)
+			(at 41.91 55.118 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29042,7 +30338,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 34.29 64.008 90)
+			(at 41.91 58.928 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29051,7 +30347,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 62.23 0)
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29060,7 +30356,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 34.29 62.23 0)
+			(at 41.91 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29078,6 +30374,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 111.76 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "609e2993-7d26-4f8e-b2a4-d7b34ffe3745")
+		(property "Reference" "#PWR097"
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "baa49812-8993-4290-897d-62304c5571bd")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -30035,76 +31398,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 113.03 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d1c5abf-af8a-4345-a317-990d9c84ce43")
-		(property "Reference" "J7"
-			(at 115.57 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal"
-			(at 115.57 88.8999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 113.03 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d1caef50-7227-4383-a70f-1cc10d9fc097")
-		)
-		(pin "2"
-			(uuid "8e3071b9-5c7b-46ad-81e9-a3715c1c6879")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 513.08 233.68 180)
 		(unit 1)
@@ -30300,6 +31593,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 25.4 81.28 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f4d553b-f3b9-4619-9225-7705b75ce878")
+		(property "Reference" "R11"
+			(at 25.4 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 25.4 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 25.4 79.502 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 25.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3709494a-b669-442d-b9a8-82556ab65558")
+		)
+		(pin "1"
+			(uuid "b5014e29-65c3-4bf4-84c7-d8efc0711c60")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -30642,6 +32002,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7259f2df-8ab6-4195-bfe4-a1876f99e5f1")
+		(property "Reference" "#PWR080"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c55cd02-e0cd-4931-9f83-fd483e2526a2")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -31198,6 +32625,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 91.44 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "780e818e-6450-4259-b773-92a2f76c26d1")
+		(property "Reference" "Q7"
+			(at 86.36 90.1701 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN"
+			(at 86.36 87.6301 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 27.94 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 91.44 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb29c3b3-ceda-42ad-8410-f5742016ee70")
+		)
+		(pin "1"
+			(uuid "3837fc96-c014-42cc-bd8a-a93830d424fc")
+		)
+		(pin "2"
+			(uuid "24749d7e-1c25-4294-a47c-20dd9a2b9a5c")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 511.81 199.39 180)
 		(unit 1)
@@ -31470,6 +32997,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 88.9 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80c645d1-d444-4777-a7f5-d9c33935c5bf")
+		(property "Reference" "#PWR096"
+			(at 88.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99bb223b-7eb0-48b1-afa6-dc7faa97c375")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 436.88 219.71 90)
 		(unit 1)
@@ -31538,23 +33132,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 90.17 93.98 90)
+		(at 111.76 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "83393844-6cc6-4509-9d90-e9bc4bed1278")
-		(property "Reference" "R56"
-			(at 90.17 93.98 90)
+		(uuid "81b65395-bc8f-4b76-8da4-2b5f80a0283b")
+		(property "Reference" "R52"
+			(at 111.76 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "1k"
-			(at 90.17 91.948 90)
+		(property "Value" "3.44k"
+			(at 111.76 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31562,7 +33156,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 90.17 95.758 90)
+			(at 111.76 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31571,7 +33165,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 93.98 0)
+			(at 111.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31580,7 +33174,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 90.17 93.98 0)
+			(at 111.76 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31589,15 +33183,82 @@
 			)
 		)
 		(pin "2"
-			(uuid "10d331fb-179e-4d4d-af4c-2cae97f0258b")
+			(uuid "7a6de13b-22ba-4443-8aa9-7871e9e49ded")
 		)
 		(pin "1"
-			(uuid "58eb3559-0dce-4de5-a1d8-8d290b73a8cb")
+			(uuid "4d5d63cd-b240-4948-b1b9-7f2962c927b5")
 		)
 		(instances
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R56")
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 40.64 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8228b9d5-b521-49cf-8fd5-d9620a150d28")
+		(property "Reference" "R18"
+			(at 40.64 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 40.64 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40.64 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 40.64 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c26d9708-140e-4550-a3bb-13ca0bb6937d")
+		)
+		(pin "1"
+			(uuid "7091723d-84c8-493d-96c8-35a8d9960c34")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -31667,6 +33328,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8671867b-7d06-4171-9992-00d2b7a24f16")
+		(property "Reference" "R28"
+			(at 102.87 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 108.458 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eac20bd0-25e8-4892-96ee-5cccf8bfadb4")
+		)
+		(pin "1"
+			(uuid "f5342069-8b7f-4437-917d-658c29a18874")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -31807,6 +33535,106 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 33.02 87.63 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "887d7492-9886-4bef-84f0-e5c76e199b81")
+		(property "Reference" "Q3"
+			(at 27.94 88.9001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN"
+			(at 27.94 86.3601 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -30.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at -30.48 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 33.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 33.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 33.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 33.02 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "0aee1fd7-a194-4b08-abc9-3b1d70af289a")
+		)
+		(pin "1"
+			(uuid "cf1d27a7-03c6-40a3-9477-55d27777e920")
+		)
+		(pin "2"
+			(uuid "d18582de-73d7-45ae-9ff8-9a73e848bf26")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 241.3 231.14 0)
@@ -31868,73 +33696,6 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 33.02 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "89b06e8a-f28c-4370-b5a3-9516f438ed9f")
-		(property "Reference" "R49"
-			(at 33.02 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 33.02 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 33.02 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 33.02 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 33.02 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "22310370-4cf5-4232-85d2-868cb93b6f88")
-		)
-		(pin "1"
-			(uuid "3f9c5c53-a795-4f9b-93ae-19d6b41150f6")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -32576,7 +34337,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 33.02 54.61 90)
+		(at 40.64 50.8 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32584,7 +34345,7 @@
 		(dnp no)
 		(uuid "92f58eb3-697c-4cfb-9e3a-cbfb255a78df")
 		(property "Reference" "R51"
-			(at 33.02 54.61 90)
+			(at 40.64 50.8 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32592,7 +34353,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 33.02 52.578 90)
+			(at 40.64 48.768 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32600,7 +34361,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 33.02 56.388 90)
+			(at 40.64 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32609,7 +34370,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 33.02 54.61 0)
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32618,7 +34379,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 33.02 54.61 0)
+			(at 40.64 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32778,73 +34539,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 27.94 55.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94f6dde2-fba3-49ac-b25b-f20f3e567b20")
-		(property "Reference" "#PWR076"
-			(at 27.94 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 27.94 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "12df297a-d2d6-4b66-9213-8b974dc1f7cf")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 236.22 224.79 90)
 		(unit 1)
@@ -32981,6 +34675,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 111.76 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9863282d-d1ad-4139-9991-8567aa1e9389")
+		(property "Reference" "#PWR098"
+			(at 111.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 111.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03c6d570-9b19-4c3e-af98-98f4609f7bf3")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Vertigo KiCad libraries:w25q64fv")
 		(at 431.8 107.95 0)
 		(unit 1)
@@ -33060,73 +34821,6 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 102.87 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9966fcac-c499-4173-824b-dee3b3b4d8f3")
-		(property "Reference" "R62"
-			(at 102.87 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.44k"
-			(at 102.87 91.948 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 102.87 95.758 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 102.87 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "51bd0c0e-a476-4548-9811-aa3f9c53e783")
-		)
-		(pin "1"
-			(uuid "8ffe6465-6d8d-44cd-991f-286554ec8f38")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R62")
 					(unit 1)
 				)
 			)
@@ -33606,16 +35300,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 55.88 46.99 0)
+		(at 63.5 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a0f700c1-4cb3-4e5e-ab04-90119d47abae")
 		(property "Reference" "J4"
-			(at 58.42 46.9899 0)
+			(at 66.04 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33624,7 +35317,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal"
-			(at 58.42 49.5299 0)
+			(at 59.69 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33633,7 +35326,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 46.99 0)
+			(at 63.5 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33642,7 +35335,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 46.99 0)
+			(at 63.5 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33651,7 +35344,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 55.88 46.99 0)
+			(at 63.5 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33675,17 +35368,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 45.72 116.84 0)
+		(lib_name "+3.3V_4")
+		(lib_id "power:+3.3V")
+		(at 76.2 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a175d0c2-b7ec-47d5-94e3-c8974f341ecb")
-		(property "Reference" "#PWR079"
-			(at 45.72 123.19 0)
+		(uuid "a1939dc7-2188-48b2-9986-aec8e86b7d40")
+		(property "Reference" "#PWR082"
+			(at 76.2 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33693,17 +35386,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 45.72 121.92 0)
+		(property "Value" "+3.3V"
+			(at 73.66 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 116.84 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33712,7 +35405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 116.84 0)
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33720,8 +35413,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 45.72 116.84 0)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 76.2 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33730,12 +35423,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "93442e5b-dc2c-4fba-956a-ef4278d6c05b")
+			(uuid "7b957039-6a99-439a-9e27-daa1b70e3bf3")
 		)
 		(instances
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "#PWR079")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -33872,79 +35565,6 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS_GDS")
-		(at 48.26 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a51308df-00f8-4bd1-8ca8-a83df2c58ec3")
-		(property "Reference" "Q2"
-			(at 54.61 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF530SPBF"
-			(at 54.61 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 53.34 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 48.26 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 48.26 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ea7b31a4-689f-425c-8a11-e2483aad8b9f")
-		)
-		(pin "3"
-			(uuid "34a898c3-2b03-4712-8fe4-0ae31e0e3e05")
-		)
-		(pin "1"
-			(uuid "769cca55-757c-4a71-a97f-ef4fa8d75328")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -34882,6 +36502,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_NMOS_GDS")
+		(at 114.3 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b05596af-0024-48da-b62a-f25bbcaa5676")
+		(property "Reference" "Q9"
+			(at 120.65 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IRF530SPBF"
+			(at 120.65 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 119.38 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 114.3 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "51ce6437-99eb-4c97-8455-b806af8dae55")
+		)
+		(pin "3"
+			(uuid "03e0e239-5e4b-43fc-bb8c-1e0e63dfc065")
+		)
+		(pin "1"
+			(uuid "92023dec-e021-4ca6-a402-acaf22f47f52")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "Q9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 322.58 236.22 0)
@@ -35017,140 +36710,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 97.79 67.31 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b231f95f-6363-4901-a756-997074e2bfd4")
-		(property "Reference" "R59"
-			(at 93.98 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 93.98 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.568 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4b436e6f-4294-4349-bb7a-489de7308463")
-		)
-		(pin "1"
-			(uuid "55645d66-7173-4810-a602-21fe1eeb0337")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 45.72 95.25 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b28232df-2451-4c14-b768-5b9609fe67d2")
-		(property "Reference" "R54"
-			(at 45.72 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3.44k"
-			(at 45.72 93.218 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 45.72 97.028 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 45.72 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "77e06ec4-cf0e-404e-9ded-be069d5a7c2c")
-		)
-		(pin "1"
-			(uuid "e90cb730-c4b5-4fc0-bd57-1890c4d66329")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 408.94 99.06 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -35217,102 +36776,32 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 27.94 96.52 0)
+		(lib_id "Device:R")
+		(at 99.06 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b43ba4ea-1ee2-4e5b-b701-e136859fb6e0")
-		(property "Reference" "#PWR078"
-			(at 27.94 102.87 0)
+		(uuid "b4ade097-580f-4dc5-b4ac-6b4f3d1911bf")
+		(property "Reference" "R24"
+			(at 99.06 52.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 27.94 101.6 0)
+		(property "Value" "1k"
+			(at 99.06 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
-			(at 27.94 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31242c5f-9cfb-49cd-b2ed-ec4a6a26acae")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS_GDS")
-		(at 105.41 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4563cf5-af07-475a-96b1-ec7e996b4a63")
-		(property "Reference" "Q4"
-			(at 111.76 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "IRF530SPBF"
-			(at 111.76 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
-			(at 110.49 99.06 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 99.06 53.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35321,7 +36810,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 101.6 0)
+			(at 99.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35329,8 +36818,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 105.41 101.6 0)
+		(property "Description" "Resistor"
+			(at 99.06 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35339,18 +36828,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fa56c75b-dae1-40c8-b789-fa6afefeac7f")
-		)
-		(pin "3"
-			(uuid "49e29974-3cb1-4622-bc31-6363809bc0e5")
+			(uuid "471defdb-6aa9-42eb-8156-d92ad2436ff9")
 		)
 		(pin "1"
-			(uuid "59b920ba-eaee-40aa-ae8a-53d9401172b3")
+			(uuid "f8c4c709-a46c-40b9-9c9e-f91ee0c69e40")
 		)
 		(instances
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "Q4")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -35695,6 +37181,73 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "#PWR047")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 83.82 39.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bb647bed-f474-49e8-81a3-fe957d323766")
+		(property "Reference" "R22"
+			(at 83.82 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 83.82 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 83.82 37.592 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 83.82 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7b281156-3d60-470a-a36c-545bfd3d6d90")
+		)
+		(pin "1"
+			(uuid "7f6758df-39d5-4b1c-8522-11c662dd047e")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -36358,6 +37911,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 106.68 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c26b4627-a907-49a2-ab70-3850039787a9")
+		(property "Reference" "R49"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 102.87 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 108.458 107.95 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3782922e-a066-4106-b51a-3ea1c23c05d8")
+		)
+		(pin "1"
+			(uuid "978451d0-3370-466b-a5d4-9dfecc70089a")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 93.98 140.97 90)
 		(unit 1)
@@ -36422,73 +38042,6 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 90.17 53.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c2eaa4b4-0100-45da-9f0d-e211874825cb")
-		(property "Reference" "R55"
-			(at 90.17 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 90.17 51.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 90.17 55.118 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 90.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 90.17 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8144f1a-16ff-409e-a74e-a0b47e7d53c1")
-		)
-		(pin "1"
-			(uuid "d032f324-d6f4-4f26-877a-5b82313d902c")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -36631,73 +38184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 97.79 107.95 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5339976-8fca-4b3d-9b8a-32aa1a70796b")
-		(property "Reference" "R60"
-			(at 93.98 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 93.98 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.568 107.95 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 97.79 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "76e80c64-b497-419a-abb7-ce7eb4dcae49")
-		)
-		(pin "1"
-			(uuid "c248a7a7-07f2-440c-b1b9-4b02ad779ab3")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R60")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 513.08 248.92 0)
 		(unit 1)
@@ -36759,73 +38245,6 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 40.64 109.22 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c59fa2a5-88c7-437a-884b-834eb5bdb665")
-		(property "Reference" "R53"
-			(at 36.83 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10k"
-			(at 36.83 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 42.418 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 40.64 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 40.64 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e53d8beb-f434-4d47-a777-b442ba80b6ed")
-		)
-		(pin "1"
-			(uuid "87f66a0c-0438-4bcb-8ece-0635102d831d")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -37116,7 +38535,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 45.72 76.2 0)
+		(at 53.34 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37125,7 +38544,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc1d8902-b498-45f8-8b36-c2146e44b6a9")
 		(property "Reference" "#PWR075"
-			(at 45.72 82.55 0)
+			(at 53.34 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37134,7 +38553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 45.72 81.28 0)
+			(at 53.34 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37143,7 +38562,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 76.2 0)
+			(at 53.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37152,7 +38571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 76.2 0)
+			(at 53.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37161,7 +38580,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 45.72 76.2 0)
+			(at 53.34 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37183,7 +38602,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 40.64 68.58 180)
+		(at 48.26 63.5 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37191,7 +38610,7 @@
 		(dnp no)
 		(uuid "cc32d304-4c82-402a-9609-ad3a4fc2d8b2")
 		(property "Reference" "R47"
-			(at 36.83 67.31 0)
+			(at 44.45 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37199,7 +38618,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 36.83 69.85 0)
+			(at 44.45 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37207,7 +38626,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 42.418 68.58 90)
+			(at 50.038 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37216,7 +38635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 68.58 0)
+			(at 48.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37225,7 +38644,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 40.64 68.58 0)
+			(at 48.26 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37814,6 +39233,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 53.34 93.98 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2c2fb01-fdbf-4c58-86f7-c2d192eb0a33")
+		(property "Reference" "R21"
+			(at 53.34 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.44k"
+			(at 53.34 91.948 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 53.34 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84f76a42-b2ef-45d1-9ddf-fb115b7d6d9c")
+		)
+		(pin "1"
+			(uuid "74be2c28-3737-488d-9ca3-606729d2ce85")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 501.65 295.91 0)
 		(unit 1)
@@ -38020,6 +39506,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 25.4 38.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d7165e3e-d7b5-4086-884d-3181e5fb5cba")
+		(property "Reference" "R6"
+			(at 25.4 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 25.4 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 25.4 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 25.4 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "75d0573d-4c7c-438d-9d9d-d47485061970")
+		)
+		(pin "1"
+			(uuid "f409114e-92b2-4aee-bde9-e13a73f9225e")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 515.62 165.1 0)
 		(unit 1)
@@ -38081,76 +39634,6 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 113.03 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dc094672-d206-4c18-9e38-2a3e26589ee4")
-		(property "Reference" "J6"
-			(at 115.57 45.7199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal"
-			(at 115.57 48.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 113.03 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3d13f4e1-fec4-4438-ae3d-4e765ef549f8")
-		)
-		(pin "2"
-			(uuid "3cbe6a17-2494-481e-b3e8-1813a13dbe7c")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -38989,73 +40472,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 34.29 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e45a64c7-d280-4c3a-b6ba-5d4f9d22d96f")
-		(property "Reference" "R52"
-			(at 34.29 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 34.29 100.838 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 34.29 104.648 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 34.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 34.29 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ac3e4869-d6e7-4db1-97c2-1949c557c3a8")
-		)
-		(pin "1"
-			(uuid "8a93a585-bb01-4c7d-bdc6-d51bb6af91e2")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R52")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 81.28 251.46 0)
 		(unit 1)
@@ -39115,73 +40531,6 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 91.44 101.6 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e5fc582c-e874-4761-93ac-474d4e46af4a")
-		(property "Reference" "R58"
-			(at 91.44 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 91.44 99.568 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 91.44 103.378 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 91.44 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1ad70666-726b-4b8f-b240-cbfc4ebf7a43")
-		)
-		(pin "1"
-			(uuid "cfe73cf3-4185-48c3-9f99-b0184241abc5")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R58")
 					(unit 1)
 				)
 			)
@@ -40845,6 +42194,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 30.48 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f04b659d-73f4-453c-bec0-464fdf770774")
+		(property "Reference" "#PWR022"
+			(at 30.48 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 30.48 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 30.48 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "467d18e0-ecd3-4040-af28-bca9c290d63e")
+		)
+		(instances
+			(project "Vertigo Pro PR1"
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 449.58 292.1 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -40979,73 +42395,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f4faa9f8-72a6-41aa-bdf4-f0353c65bd5b")
-		(property "Reference" "#PWR082"
-			(at 102.87 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 102.87 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45433f50-031c-45cc-9d9a-56661cb10557")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "#PWR082")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 222.25 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -41106,6 +42455,106 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 33.02 44.45 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f882c695-5c70-4aea-a0d2-4f1589de54d3")
+		(property "Reference" "Q2"
+			(at 27.94 45.7201 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN"
+			(at 27.94 43.1801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at -30.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at -30.48 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 33.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 33.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 33.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 33.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "32a0ac39-b787-402f-bcae-9f5dffdb8de3")
+		)
+		(pin "1"
+			(uuid "40884867-cb0f-4bef-8c22-26c754333302")
+		)
+		(pin "2"
+			(uuid "def58d07-5752-4003-a5ae-ea5d19d6ff04")
+		)
+		(instances
+			(project ""
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -41379,17 +42828,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 55.88 87.63 0)
+		(lib_id "Device:Q_NMOS_GDS")
+		(at 114.3 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fc0b6be9-d199-4c2d-93a9-563d12829900")
-		(property "Reference" "J5"
-			(at 58.42 87.6299 0)
+		(uuid "fee10f38-d35a-4776-be30-e568dbecc803")
+		(property "Reference" "Q8"
+			(at 120.65 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41397,8 +42846,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal"
-			(at 58.42 90.1699 0)
+		(property "Value" "IRF530SPBF"
+			(at 120.65 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41406,8 +42855,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 55.88 87.63 0)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-263-2"
+			(at 119.38 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41416,7 +42865,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 87.63 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41424,25 +42873,28 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 55.88 87.63 0)
+		(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "d63a480e-99c3-4156-b896-bbfd098b7b60")
 		)
 		(pin "2"
-			(uuid "f96d84e2-85e1-4644-8987-6b012f68cd2f")
+			(uuid "a941820b-de3e-4265-82b9-4f55cea3064d")
+		)
+		(pin "3"
+			(uuid "d9aaeb8b-f9de-47c8-856e-1cd076cf94f7")
+		)
+		(pin "1"
+			(uuid "78b13517-c487-4eb7-865e-301af7ace326")
 		)
 		(instances
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "J5")
+					(reference "Q8")
 					(unit 1)
 				)
 			)
