@@ -12218,6 +12218,12 @@
 		(uuid "8390abbf-8906-47f3-ac60-17c2ca2a42db")
 	)
 	(junction
+		(at 403.86 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "84fc4627-4976-41cc-8a64-8eaa1549ebcf")
+	)
+	(junction
 		(at 213.36 163.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12414,12 +12420,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d65e3fad-f1ec-4daf-975a-dad13433d239")
-	)
-	(junction
-		(at 402.59 199.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da829bd3-8476-4277-972c-5cf30b2dce1f")
 	)
 	(junction
 		(at 223.52 163.83)
@@ -12883,16 +12883,6 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 167.64) (xy 485.14 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a6a0d3e-691e-4166-9858-00b129023e4a")
-	)
-	(wire
-		(pts
 			(xy 403.86 227.33) (xy 403.86 226.06)
 		)
 		(stroke
@@ -13063,6 +13053,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 316.23) (xy 146.05 320.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "133efb5f-a3fd-4e91-bb38-abe04ea327d9")
+	)
+	(wire
+		(pts
 			(xy 556.26 163.83) (xy 565.15 163.83)
 		)
 		(stroke
@@ -13080,16 +13080,6 @@
 			(type default)
 		)
 		(uuid "1494b615-88d3-4e31-8004-da1a48a2b774")
-	)
-	(wire
-		(pts
-			(xy 146.05 323.85) (xy 146.05 320.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14b0b5dc-e478-4c2f-9592-c1cf38475963")
 	)
 	(wire
 		(pts
@@ -15553,7 +15543,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 313.69) (xy 152.4 313.69)
+			(xy 149.86 313.69) (xy 152.4 313.69)
 		)
 		(stroke
 			(width 0)
@@ -15973,16 +15963,6 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 288.29) (xy 501.65 288.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "845bd89a-d8e2-4152-8134-1746cda45f67")
-	)
-	(wire
-		(pts
 			(xy 116.84 63.5) (xy 116.84 71.12)
 		)
 		(stroke
@@ -16063,7 +16043,7 @@
 	)
 	(wire
 		(pts
-			(xy 389.89 199.39) (xy 402.59 199.39)
+			(xy 389.89 199.39) (xy 403.86 199.39)
 		)
 		(stroke
 			(width 0)
@@ -16193,7 +16173,7 @@
 	)
 	(wire
 		(pts
-			(xy 494.03 288.29) (xy 494.03 300.99)
+			(xy 501.65 288.29) (xy 501.65 285.75)
 		)
 		(stroke
 			(width 0)
@@ -16523,16 +16503,6 @@
 	)
 	(wire
 		(pts
-			(xy 508 120.65) (xy 518.16 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99bb8792-8ae4-4748-91e8-8ef311a0d125")
-	)
-	(wire
-		(pts
 			(xy 532.13 167.64) (xy 532.13 168.91)
 		)
 		(stroke
@@ -16650,6 +16620,16 @@
 			(type default)
 		)
 		(uuid "9e31afc3-b958-4af9-9b88-c614f09218b7")
+	)
+	(wire
+		(pts
+			(xy 403.86 199.39) (xy 411.48 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e583b20-6b6b-4230-847f-0e0163de277f")
 	)
 	(wire
 		(pts
@@ -16973,16 +16953,6 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 199.39) (xy 411.48 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad3b3464-f929-48a2-838b-eb5179e4720e")
-	)
-	(wire
-		(pts
 			(xy 187.96 168.91) (xy 184.15 168.91)
 		)
 		(stroke
@@ -17163,7 +17133,7 @@
 	)
 	(wire
 		(pts
-			(xy 402.59 196.85) (xy 402.59 199.39)
+			(xy 403.86 196.85) (xy 403.86 199.39)
 		)
 		(stroke
 			(width 0)
@@ -17203,7 +17173,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 313.69) (xy 146.05 314.96)
+			(xy 149.86 313.69) (xy 149.86 314.96)
 		)
 		(stroke
 			(width 0)
@@ -18093,7 +18063,7 @@
 	)
 	(wire
 		(pts
-			(xy 480.06 167.64) (xy 480.06 180.34)
+			(xy 485.14 167.64) (xy 485.14 165.1)
 		)
 		(stroke
 			(width 0)
@@ -18803,7 +18773,7 @@
 	)
 	(wire
 		(pts
-			(xy 508 120.65) (xy 508 132.08)
+			(xy 518.16 120.65) (xy 518.16 118.11)
 		)
 		(stroke
 			(width 0)
@@ -18913,7 +18883,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 320.04) (xy 146.05 320.04)
+			(xy 133.35 320.04) (xy 146.05 320.04)
 		)
 		(stroke
 			(width 0)
@@ -20289,9 +20259,9 @@
 		)
 		(uuid "781a9e30-491d-4d48-9696-61017b4edc81")
 	)
-	(text "uClamp0571 Protects \nVBUS from ESD"
+	(text "Protects VBUS from ESD"
 		(exclude_from_sim no)
-		(at 176.53 330.2 0)
+		(at 176.53 328.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20460,7 +20430,7 @@
 	)
 	(text "R3,R2=22R"
 		(exclude_from_sim no)
-		(at 129.54 317.5 0)
+		(at 129.54 316.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20480,7 +20450,7 @@
 	)
 	(text "Protection agains diode failure"
 		(exclude_from_sim no)
-		(at 172.72 339.09 0)
+		(at 173.99 337.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -21499,7 +21469,7 @@
 		(uuid "91f18aae-faa3-4992-be1f-1e53ef16f923")
 	)
 	(label "5V_USB_RAW"
-		(at 134.62 320.04 0)
+		(at 133.35 320.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -24488,7 +24458,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 314.96 0)
+		(at 149.86 314.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24497,7 +24467,7 @@
 		(fields_autoplaced yes)
 		(uuid "284ed58c-530a-450f-bc39-081e998235d3")
 		(property "Reference" "#PWR016"
-			(at 146.05 321.31 0)
+			(at 149.86 321.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24506,7 +24476,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 320.04 0)
+			(at 149.86 320.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24515,7 +24485,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 314.96 0)
+			(at 149.86 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24524,7 +24494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 314.96 0)
+			(at 149.86 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24533,7 +24503,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 314.96 0)
+			(at 149.86 314.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26217,7 +26187,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 508 132.08 180)
+		(at 518.16 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -26225,7 +26195,7 @@
 		(dnp no)
 		(uuid "452ad24b-905d-4ef2-b47b-d7cc2b2e9558")
 		(property "Reference" "#PWR058"
-			(at 508 128.27 0)
+			(at 518.16 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26234,7 +26204,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 508 135.89 0)
+			(at 518.16 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26242,7 +26212,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 508 132.08 0)
+			(at 518.16 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26251,7 +26221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 508 132.08 0)
+			(at 518.16 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -26260,7 +26230,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 508 132.08 0)
+			(at 518.16 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30130,7 +30100,7 @@
 		(dnp no)
 		(uuid "7e8324eb-2376-46f7-8e91-feb7a6842934")
 		(property "Reference" "D3"
-			(at 151.13 317.5 0)
+			(at 152.4 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31462,7 +31432,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 494.03 300.99 180)
+		(at 501.65 285.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -31470,7 +31440,7 @@
 		(dnp no)
 		(uuid "91d844a6-3b1f-41e7-bac1-f31f05049135")
 		(property "Reference" "#PWR056"
-			(at 494.03 297.18 0)
+			(at 501.65 289.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31479,7 +31449,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 494.03 304.8 0)
+			(at 501.65 281.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31487,7 +31457,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 494.03 300.99 0)
+			(at 501.65 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31496,7 +31466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 494.03 300.99 0)
+			(at 501.65 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31505,7 +31475,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 494.03 300.99 0)
+			(at 501.65 285.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34901,7 +34871,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 480.06 180.34 180)
+		(at 485.14 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -34909,7 +34879,7 @@
 		(dnp no)
 		(uuid "c89d1844-bbd1-4994-b241-114e1c0e400a")
 		(property "Reference" "#PWR057"
-			(at 480.06 176.53 0)
+			(at 485.14 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34918,7 +34888,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 480.06 184.15 0)
+			(at 485.14 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34926,7 +34896,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 480.06 180.34 0)
+			(at 485.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34935,7 +34905,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 480.06 180.34 0)
+			(at 485.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34944,7 +34914,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 480.06 180.34 0)
+			(at 485.14 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35541,7 +35511,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 402.59 196.85 0)
+		(at 403.86 196.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35549,7 +35519,7 @@
 		(dnp no)
 		(uuid "cdfe9afa-2ce0-49ca-92c9-d0875ab86779")
 		(property "Reference" "#PWR054"
-			(at 402.59 200.66 0)
+			(at 403.86 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35558,7 +35528,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 402.59 193.04 0)
+			(at 403.86 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35566,7 +35536,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 402.59 196.85 0)
+			(at 403.86 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35575,7 +35545,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 402.59 196.85 0)
+			(at 403.86 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35584,7 +35554,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 402.59 196.85 0)
+			(at 403.86 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38569,7 +38539,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 146.05 323.85 180)
+		(at 146.05 316.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38586,7 +38556,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 146.05 327.66 0)
+			(at 146.05 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38594,7 +38564,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 323.85 0)
+			(at 146.05 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38603,7 +38573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 323.85 0)
+			(at 146.05 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38612,7 +38582,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 146.05 323.85 0)
+			(at 146.05 316.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
