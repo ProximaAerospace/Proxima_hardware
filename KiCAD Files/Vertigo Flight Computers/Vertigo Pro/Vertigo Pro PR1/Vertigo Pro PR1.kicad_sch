@@ -734,6 +734,126 @@
 				)
 			)
 		)
+		(symbol "+3.3V_7"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_7_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_7_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "24AA32A-I_MS:24AA32A-I_MS"
 			(pin_names
 				(offset 1.016)
@@ -2840,169 +2960,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Device:D"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13043,7 +13000,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 293.37) (xy 441.96 293.37)
+			(xy 415.29 293.37) (xy 417.83 293.37)
 		)
 		(stroke
 			(width 0)
@@ -13643,7 +13600,7 @@
 	)
 	(wire
 		(pts
-			(xy 415.29 288.29) (xy 416.56 288.29)
+			(xy 415.29 288.29) (xy 417.83 288.29)
 		)
 		(stroke
 			(width 0)
@@ -13933,7 +13890,7 @@
 	)
 	(wire
 		(pts
-			(xy 416.56 290.83) (xy 415.29 290.83)
+			(xy 417.83 290.83) (xy 415.29 290.83)
 		)
 		(stroke
 			(width 0)
@@ -15933,16 +15890,6 @@
 	)
 	(wire
 		(pts
-			(xy 450.85 293.37) (xy 449.58 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83f78297-4fde-46f3-869e-6df4967f5f44")
-	)
-	(wire
-		(pts
 			(xy 519.43 215.9) (xy 519.43 217.17)
 		)
 		(stroke
@@ -17250,16 +17197,6 @@
 			(type default)
 		)
 		(uuid "b690cc63-f6e0-4be6-b0e0-253833580361")
-	)
-	(wire
-		(pts
-			(xy 458.47 293.37) (xy 468.63 293.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b699f37e-965d-464e-9f10-39e6a6328a20")
 	)
 	(wire
 		(pts
@@ -20450,7 +20387,7 @@
 	)
 	(text "Protection agains diode failure"
 		(exclude_from_sim no)
-		(at 173.99 337.82 0)
+		(at 175.26 339.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -20565,17 +20502,6 @@
 			(justify left bottom)
 		)
 		(uuid "045e5b37-5e4d-4d7c-92c0-3c734c9ab202")
-	)
-	(label "ULN_3V3"
-		(at 468.63 293.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "06bf0e51-18eb-45a9-8fe5-293164e8e2eb")
 	)
 	(label "BATT_OUT"
 		(at 69.85 81.28 180)
@@ -22319,7 +22245,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 			(at 63.5 85.09 0)
 			(effects
 				(font
@@ -22593,7 +22519,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12"
 			(at 176.53 304.8 0)
 			(effects
 				(font
@@ -23640,7 +23566,7 @@
 	(symbol
 		(lib_name "+3.3V_1")
 		(lib_id "power:+3.3V")
-		(at 416.56 288.29 270)
+		(at 417.83 288.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23649,7 +23575,7 @@
 		(fields_autoplaced yes)
 		(uuid "18461748-e585-4953-8e14-0c79fc60564b")
 		(property "Reference" "#PWR040"
-			(at 412.75 288.29 0)
+			(at 414.02 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23658,7 +23584,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 420.37 288.2899 90)
+			(at 421.64 288.2899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23667,7 +23593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 416.56 288.29 0)
+			(at 417.83 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23676,7 +23602,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 416.56 288.29 0)
+			(at 417.83 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23685,7 +23611,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 416.56 288.29 0)
+			(at 417.83 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24211,7 +24137,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 			(at 121.92 86.36 0)
 			(effects
 				(font
@@ -27431,7 +27357,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 			(at 121.92 43.18 0)
 			(effects
 				(font
@@ -28140,73 +28066,6 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "#PWR084")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 445.77 293.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "67e1acaa-0851-4964-80af-aa182ecb42ce")
-		(property "Reference" "R45"
-			(at 445.77 288.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1k"
-			(at 445.77 290.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 445.77 295.148 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 445.77 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 445.77 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "408c1d7e-2387-4c42-bcc5-8f3b16da91e5")
-		)
-		(pin "1"
-			(uuid "f968d9fe-5609-4601-8d03-76bd1fdcde68")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "R45")
 					(unit 1)
 				)
 			)
@@ -30115,7 +29974,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 151.13 320.04 0)
 			(effects
 				(font
@@ -32534,7 +32393,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x02_P3.50mm_Horizontal"
 			(at 63.5 41.91 0)
 			(effects
 				(font
@@ -35847,6 +35706,74 @@
 		)
 	)
 	(symbol
+		(lib_name "+3.3V_7")
+		(lib_id "power:+3.3V")
+		(at 417.83 293.37 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3043d79-1200-44a5-bf7c-21b3f645664e")
+		(property "Reference" "#PWR059"
+			(at 414.02 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 421.64 293.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 417.83 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 417.83 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 417.83 293.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c9eadbb-cf9b-4daf-887f-2be4b165718d")
+		)
+		(instances
+			(project ""
+				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 501.65 295.91 0)
 		(unit 1)
@@ -37017,92 +36944,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 454.66 293.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6be058f-3dd9-4ade-91a8-2582f1b9f6ce")
-		(property "Reference" "D7"
-			(at 454.66 287.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 454.66 289.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 454.66 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 454.66 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 454.66 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 454.66 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 454.66 293.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0664a67c-1fb3-4167-859f-2caf138d3c23")
-		)
-		(pin "2"
-			(uuid "fb7787c5-35e7-48ed-ba70-289c64260670")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 416.56 337.82 0)
 		(unit 1)
@@ -37442,7 +37283,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 416.56 290.83 90)
+		(at 417.83 290.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37451,7 +37292,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea04b86a-82da-42f6-a684-152fedc20bf4")
 		(property "Reference" "#PWR068"
-			(at 422.91 290.83 0)
+			(at 424.18 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37460,7 +37301,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 421.64 290.83 0)
+			(at 422.91 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37469,7 +37310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 416.56 290.83 0)
+			(at 417.83 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37478,7 +37319,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 416.56 290.83 0)
+			(at 417.83 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37487,7 +37328,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 416.56 290.83 0)
+			(at 417.83 290.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
