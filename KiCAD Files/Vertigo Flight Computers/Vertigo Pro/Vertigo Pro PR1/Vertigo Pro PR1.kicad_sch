@@ -5,9 +5,9 @@
 	(uuid "134db9eb-a948-4fc5-8d59-41ff4a5a8862")
 	(paper "User" 596.9 368.3)
 	(title_block
-		(title "Vertigo Pro - Prototype Flight Computer 01")
+		(title "Vertigo Pro - Prototype 01")
 		(date "2024-06-26")
-		(rev "PR1")
+		(rev "DR1")
 		(company "B-SPACE & Flower Space")
 		(comment 1 "Github: https://github.com/ProximaAerospace")
 		(comment 2 "and should only be used for development")
