@@ -28796,7 +28796,7 @@
 	(footprint "Vertigo Pro KiCad Libraries:CDMC6D28NP-4R7MC"
 		(layer "F.Cu")
 		(uuid "c576d775-5900-40cf-8901-d83ac417e56a")
-		(at 167.5 93)
+		(at 142.25 94.75)
 		(property "Reference" "L1"
 			(at 0.25 -4 0)
 			(unlocked yes)
@@ -29014,7 +29014,7 @@
 			)
 			(polygon
 				(pts
-					(xy 163.75 91.25) (xy 165.25 91.25) (xy 165.25 94.75) (xy 163.75 94.75)
+					(xy 138.5 93) (xy 140 93) (xy 140 96.5) (xy 138.5 96.5)
 				)
 			)
 		)
@@ -35443,7 +35443,7 @@
 	(footprint "Package_TO_SOT_SMD:TSOT-23-6"
 		(layer "B.Cu")
 		(uuid "81b17f63-97df-4c8d-9e23-25c91b33956e")
-		(at 153 93.25 180)
+		(at 137.1375 113.3 180)
 		(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "TSOT TO_SOT_SMD")
 		(property "Reference" "U2"
