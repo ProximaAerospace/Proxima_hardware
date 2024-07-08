@@ -3990,291 +3990,6 @@
 				)
 			)
 		)
-		(symbol "ECLAMP8052P.TCT:ECLAMP8052P.TCT"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FL1"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ECLAMP8052P.TCT"
-				(at 0 -10.16 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ECLAMP8052P.TCT:FIL_ECLAMP8052P.TCT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "Semtech Corporation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "0.60mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "UFDFN-5 Semtech"
-				(at 0.254 14.224 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/ECLAMP8052P.TCT/Semtech+Corporation/view-part/?ref=eda"
-				(at -2.032 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "Manufacturer Recommendations"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "4.10mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECLAMP8052P.TCT/Semtech+Corporation/view-part/?ref=snap"
-				(at 0 9.906 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "ECLAMP8052P.TCT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "\n2 Line Common Mode Choke Surface Mount DCR 1.8Ohm\n"
-				(at -0.762 12.954 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SNAPEDA_PN" "ECLAMP8052P.TCT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "Semtech"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "ECLAMP8052P.TCT_0_0"
-				(rectangle
-					(start -12.7 -7.62)
-					(end 12.7 7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin input line
-					(at -17.78 0 0)
-					(length 5.08)
-					(name "I/O+_IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -17.78 5.08 0)
-					(length 5.08)
-					(name "I/O-_IN"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 17.78 -5.08 180)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 0 180)
-					(length 5.08)
-					(name "I/O-_OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 17.78 5.08 180)
-					(length 5.08)
-					(name "I/O+_OUT"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "FFC2A32-24-T:FFC2A32-24-T"
 			(pin_names
 				(offset 1.016)
@@ -11933,12 +11648,6 @@
 		(uuid "cd42e088-8ea0-4c2d-875b-3d3a775a3e98")
 	)
 	(junction
-		(at 121.92 313.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d1860596-2162-45cf-89f7-eb8b38c14016")
-	)
-	(junction
 		(at 547.37 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11961,6 +11670,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d65e3fad-f1ec-4daf-975a-dad13433d239")
+	)
+	(junction
+		(at 143.51 306.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da88607d-4f83-4f58-bbfd-2b8098892392")
 	)
 	(junction
 		(at 223.52 163.83)
@@ -12474,6 +12189,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 289.56) (xy 152.4 289.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fa4c07f-ea15-4a5a-9e3e-1a1575330443")
+	)
+	(wire
+		(pts
 			(xy 80.01 82.55) (xy 76.2 82.55)
 		)
 		(stroke
@@ -12714,6 +12439,26 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 326.39) (xy 119.38 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a760ef8-2f07-430f-8468-9e0127dbc42a")
+	)
+	(wire
+		(pts
+			(xy 128.27 306.07) (xy 121.92 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1acda71b-b1ef-43da-b683-94a6bec97b6b")
+	)
+	(wire
+		(pts
 			(xy 58.42 262.89) (xy 69.85 262.89)
 		)
 		(stroke
@@ -12751,16 +12496,6 @@
 			(type default)
 		)
 		(uuid "1be32a9e-1b6e-48f8-a106-daaecf9ac621")
-	)
-	(wire
-		(pts
-			(xy 165.1 299.72) (xy 162.56 299.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c9bfc1f-f9ac-4249-8823-0b5a4eab9f48")
 	)
 	(wire
 		(pts
@@ -12951,6 +12686,16 @@
 			(type default)
 		)
 		(uuid "2458af71-2fe9-4595-964c-c3d01d59ed29")
+	)
+	(wire
+		(pts
+			(xy 101.6 323.85) (xy 121.92 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "255a98cf-8b45-46b3-b640-92dd50d17c9c")
 	)
 	(wire
 		(pts
@@ -13234,16 +12979,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 322.58) (xy 116.84 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3099539d-a5f9-4e6a-a193-1f34f9ab6d81")
-	)
-	(wire
-		(pts
 			(xy 420.37 256.54) (xy 433.07 256.54)
 		)
 		(stroke
@@ -13491,16 +13226,6 @@
 			(type default)
 		)
 		(uuid "373337db-badd-455e-8d15-ad4424d1263f")
-	)
-	(wire
-		(pts
-			(xy 116.84 314.96) (xy 116.84 300.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3756eceb-20fe-459d-82b2-76f617e08ffc")
 	)
 	(wire
 		(pts
@@ -13884,16 +13609,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 313.69) (xy 142.24 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44268c9b-b067-4ba8-8ab2-efbeb8534eb8")
-	)
-	(wire
-		(pts
 			(xy 515.62 246.38) (xy 523.24 246.38)
 		)
 		(stroke
@@ -14234,16 +13949,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 326.39) (xy 121.92 326.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "51bd0e21-06ef-4ab4-b293-57447239e914")
-	)
-	(wire
-		(pts
 			(xy 48.26 113.03) (xy 48.26 110.49)
 		)
 		(stroke
@@ -14504,16 +14209,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 306.07) (xy 121.92 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d15430d-0477-44ce-9da8-d7448142afed")
-	)
-	(wire
-		(pts
 			(xy 367.03 199.39) (xy 367.03 205.74)
 		)
 		(stroke
@@ -14584,16 +14279,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 295.91) (xy 124.46 297.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5f6fefc2-6bf5-43a2-aaeb-8b3c6b3fffbc")
-	)
-	(wire
-		(pts
 			(xy 162.56 307.34) (xy 165.1 307.34)
 		)
 		(stroke
@@ -14644,7 +14329,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 300.99) (xy 162.56 300.99)
+			(xy 156.21 300.99) (xy 162.56 300.99)
 		)
 		(stroke
 			(width 0)
@@ -14861,6 +14546,16 @@
 			(type default)
 		)
 		(uuid "6ebca542-f0df-4295-94a7-bc58dfb7683a")
+	)
+	(wire
+		(pts
+			(xy 162.56 299.72) (xy 165.1 299.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f270fbe-e9e3-407f-9cfa-d055b23b3340")
 	)
 	(wire
 		(pts
@@ -15134,6 +14829,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 306.07) (xy 121.92 323.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c54268b-89b3-42f2-9c99-d2b838346db6")
+	)
+	(wire
+		(pts
 			(xy 222.25 323.85) (xy 233.68 323.85)
 		)
 		(stroke
@@ -15141,16 +14846,6 @@
 			(type default)
 		)
 		(uuid "7d03e4d7-3e5e-4ad2-9683-6f1df27e5ca3")
-	)
-	(wire
-		(pts
-			(xy 121.92 314.96) (xy 121.92 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d1f895f-2f1e-4219-b4e7-5e992bc28bf4")
 	)
 	(wire
 		(pts
@@ -15214,16 +14909,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 295.91) (xy 125.73 295.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7f723763-0864-4e5e-ac22-4d5fa7bbfc24")
-	)
-	(wire
-		(pts
 			(xy 523.24 219.71) (xy 519.43 219.71)
 		)
 		(stroke
@@ -15271,6 +14956,16 @@
 			(type default)
 		)
 		(uuid "7ffba1e9-778b-41c2-b6ec-0251c789969e")
+	)
+	(wire
+		(pts
+			(xy 143.51 289.56) (xy 143.51 292.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8024fe7f-b87c-4f4c-b90b-307c94e603f9")
 	)
 	(wire
 		(pts
@@ -15674,16 +15369,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 300.99) (xy 125.73 300.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e5b6932-7928-4762-8598-3bc205de2fe7")
-	)
-	(wire
-		(pts
 			(xy 378.46 195.58) (xy 386.08 195.58)
 		)
 		(stroke
@@ -15894,6 +15579,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 300.99) (xy 148.59 300.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97e070a7-0c67-439a-be87-f154ce53eefd")
+	)
+	(wire
+		(pts
 			(xy 105.41 88.9) (xy 105.41 95.25)
 		)
 		(stroke
@@ -15921,16 +15616,6 @@
 			(type default)
 		)
 		(uuid "98e06583-cda2-401f-8df9-27c999cc5a95")
-	)
-	(wire
-		(pts
-			(xy 121.92 313.69) (xy 124.46 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9921bb07-235d-4883-b592-36b5cbdbc602")
 	)
 	(wire
 		(pts
@@ -16534,16 +16219,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 326.39) (xy 121.92 322.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3f2b6e9-7f32-46bb-8578-43108782b5f3")
-	)
-	(wire
-		(pts
 			(xy 21.59 81.28) (xy 17.78 81.28)
 		)
 		(stroke
@@ -16874,16 +16549,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 323.85) (xy 116.84 323.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be47eb3d-534c-4d5b-be18-6f92161760ed")
-	)
-	(wire
-		(pts
 			(xy 30.48 39.37) (xy 30.48 38.1)
 		)
 		(stroke
@@ -16901,6 +16566,16 @@
 			(type default)
 		)
 		(uuid "bed0bdd7-ea0b-4e7c-a210-7215cc6893f7")
+	)
+	(wire
+		(pts
+			(xy 119.38 300.99) (xy 119.38 326.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef5c81a-0160-4263-bbfa-d63cf94dfccf")
 	)
 	(wire
 		(pts
@@ -16964,16 +16639,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 306.07) (xy 162.56 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16698cd-d9af-4781-b2f1-507bc89b9eee")
-	)
-	(wire
-		(pts
 			(xy 128.27 179.07) (xy 130.81 179.07)
 		)
 		(stroke
@@ -17001,6 +16666,16 @@
 			(type default)
 		)
 		(uuid "c26c3154-b6ea-4ce1-a1b7-849c46a6d0cc")
+	)
+	(wire
+		(pts
+			(xy 135.89 306.07) (xy 143.51 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3bb2680-f821-470c-874b-448052762fc7")
 	)
 	(wire
 		(pts
@@ -17151,6 +16826,16 @@
 			(type default)
 		)
 		(uuid "c8ee26af-a33b-4329-b85b-2d38d63796af")
+	)
+	(wire
+		(pts
+			(xy 143.51 299.72) (xy 143.51 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca07eee8-5987-4b28-b60b-55e3ac1b5aa3")
 	)
 	(wire
 		(pts
@@ -17381,16 +17066,6 @@
 			(type default)
 		)
 		(uuid "d6917933-d59f-4a27-b302-0f4f6373af65")
-	)
-	(wire
-		(pts
-			(xy 121.92 306.07) (xy 125.73 306.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6d04c70-a43f-4c99-865d-d3cf0a591ea6")
 	)
 	(wire
 		(pts
@@ -17751,6 +17426,16 @@
 			(type default)
 		)
 		(uuid "e5b26bfa-8002-439b-ad74-8c3c8cb064a6")
+	)
+	(wire
+		(pts
+			(xy 143.51 306.07) (xy 162.56 306.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e611dfb5-23a0-48b8-aa4a-ec4f9c0b18b0")
 	)
 	(wire
 		(pts
@@ -18517,6 +18202,18 @@
 			(type none)
 		)
 		(uuid 8d4bc907-de48-4c7f-939b-0c3706ad6d99)
+	)
+	(rectangle
+		(start 13.97 236.22)
+		(end 203.835 354.33)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a79294f1-779b-4102-814e-ef178db886ee)
 	)
 	(rectangle
 		(start 368.3 271.78)
@@ -19548,16 +19245,6 @@
 		)
 		(uuid "77555c47-a3e1-4a47-915c-d99150f49dfe")
 	)
-	(text "USB data lines protected agains ESD and EMI"
-		(exclude_from_sim no)
-		(at 143.51 285.75 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "77c70a91-0edd-4647-a812-faf11b5c1d39")
-	)
 	(text "Used for GNSS IC\n"
 		(exclude_from_sim no)
 		(at 572.77 196.85 0)
@@ -19736,17 +19423,6 @@
 			)
 		)
 		(uuid "c0c34022-b182-4561-8951-28ced6382036")
-	)
-	(text "R3,R2\n=22R"
-		(exclude_from_sim no)
-		(at 123.19 318.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d46de344-942d-4869-96ac-b41d446c19cd")
 	)
 	(text "Reset jumper"
 		(exclude_from_sim no)
@@ -20525,6 +20201,17 @@
 		)
 		(uuid "62f962f0-1d0e-4b7b-ad52-8fa72bdbacce")
 	)
+	(label "DU+"
+		(at 160.02 300.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "645dda46-bc63-4b02-9841-4de07749037c")
+	)
 	(label "STM_I2C_SDA"
 		(at 283.21 180.34 0)
 		(fields_autoplaced yes)
@@ -21087,7 +20774,7 @@
 		(uuid "bd50c375-cef9-408f-9fd3-cd5ee6477d9b")
 	)
 	(label "REG_3.3V"
-		(at 142.24 313.69 180)
+		(at 152.4 289.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -21503,6 +21190,17 @@
 			(justify right bottom)
 		)
 		(uuid "f985c14a-0eca-4a4a-9115-6bcd4896d01f")
+	)
+	(label "DU-"
+		(at 160.02 306.07 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 0.635 0.635)
+			)
+			(justify left bottom)
+		)
+		(uuid "f9e4dcb2-1231-4411-9585-147f57e56072")
 	)
 	(label "IO13"
 		(at 279.4 304.8 0)
@@ -22960,7 +22658,7 @@
 		(dnp no)
 		(uuid "1946939d-1bb5-43a2-aeca-f4d97c6e9843")
 		(property "Reference" "R30"
-			(at 191.77 177.8 0)
+			(at 191.77 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22968,7 +22666,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 191.77 175.26 0)
+			(at 191.77 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27387,214 +27085,6 @@
 		)
 	)
 	(symbol
-		(lib_id "ECLAMP8052P.TCT:ECLAMP8052P.TCT")
-		(at 143.51 300.99 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a239260-cd09-4168-9c4d-85189cc1133b")
-		(property "Reference" "FL1"
-			(at 143.51 288.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ECLAMP8052P.TCT"
-			(at 143.51 290.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Vertigo Pro KiCad Libraries:FIL_ECLAMP8052P.TCT"
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Semtech Corporation"
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "0.60mm"
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "UFDFN-5 Semtech"
-			(at 143.256 315.214 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/ECLAMP8052P.TCT/Semtech+Corporation/view-part/?ref=eda"
-			(at 145.542 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "PARTREV" "4.10mm"
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/ECLAMP8052P.TCT/Semtech+Corporation/view-part/?ref=snap"
-			(at 143.51 310.896 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "ECLAMP8052P.TCT"
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "\n2 Line Common Mode Choke Surface Mount DCR 1.8Ohm\n"
-			(at 144.272 313.944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SNAPEDA_PN" "ECLAMP8052P.TCT"
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Semtech"
-			(at 143.51 300.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "29c320c7-c032-45d4-a2ba-0ade3322b10a")
-		)
-		(pin "1"
-			(uuid "d69eba8a-7349-4719-aff3-0483a48667d2")
-		)
-		(pin "2"
-			(uuid "754a76b8-8bcd-4043-8011-903f66bed098")
-		)
-		(pin "5"
-			(uuid "9e6a2cf6-56a8-4de7-b244-77dfa1f686eb")
-		)
-		(pin "4"
-			(uuid "ce5d7959-90f2-4444-a3ee-6495be092175")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "FL1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 205.74 176.53 0)
 		(unit 1)
@@ -28934,7 +28424,7 @@
 		(dnp no)
 		(uuid "7e0bd0e2-2e92-44da-a855-d720c8bdc316")
 		(property "Reference" "R29"
-			(at 176.53 177.8 0)
+			(at 176.53 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28942,7 +28432,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 176.53 175.26 0)
+			(at 176.53 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29150,7 +28640,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 440.69 320.548 90)
 			(effects
 				(font
@@ -29388,73 +28878,6 @@
 			(project "Vertigo Pro PR1"
 				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
 					(reference "R28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 124.46 297.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "86db31b3-b7fa-4b51-a240-550a546e9618")
-		(property "Reference" "#PWR061"
-			(at 124.46 303.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 124.46 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 297.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a845d1d8-44c8-4125-b1ff-863879245c05")
-		)
-		(instances
-			(project "Vertigo Pro PR1"
-				(path "/134db9eb-a948-4fc5-8d59-41ff4a5a8862"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -35028,7 +34451,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 128.27 313.69 90)
+		(at 143.51 295.91 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35036,7 +34459,7 @@
 		(dnp no)
 		(uuid "dde3c630-36af-456c-b2cd-71b21ca51c76")
 		(property "Reference" "R48"
-			(at 128.27 313.69 90)
+			(at 139.7 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35044,15 +34467,15 @@
 			)
 		)
 		(property "Value" "1.5k"
-			(at 128.27 311.658 90)
+			(at 139.7 297.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 128.27 315.468 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 145.288 295.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35061,7 +34484,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 313.69 0)
+			(at 143.51 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35070,7 +34493,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 128.27 313.69 0)
+			(at 143.51 295.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35853,7 +35276,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 121.92 318.77 0)
+		(at 132.08 306.07 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -35861,7 +35284,7 @@
 		(dnp no)
 		(uuid "e86af073-be2c-478c-af65-ed9ddaca8bfc")
 		(property "Reference" "R2"
-			(at 123.19 322.58 0)
+			(at 132.08 306.07 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35869,16 +35292,15 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 125.73 317.5 0)
+			(at 132.08 303.53 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 120.142 318.77 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 132.08 304.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35887,7 +35309,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 318.77 0)
+			(at 132.08 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -35896,7 +35318,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 121.92 318.77 0)
+			(at 132.08 306.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36677,7 +36099,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 116.84 318.77 180)
+		(at 152.4 300.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36685,7 +36107,7 @@
 		(dnp no)
 		(uuid "ec24611b-cb4a-45b3-a9a7-6c5aecc5edd3")
 		(property "Reference" "R3"
-			(at 118.11 322.58 0)
+			(at 152.4 300.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36693,16 +36115,15 @@
 			)
 		)
 		(property "Value" "22R"
-			(at 124.46 323.85 0)
+			(at 152.4 298.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 118.618 318.77 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 152.4 299.212 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36711,7 +36132,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 318.77 0)
+			(at 152.4 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36720,7 +36141,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 116.84 318.77 0)
+			(at 152.4 300.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37474,7 +36895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 450.85 318.77 0)
 			(effects
 				(font
