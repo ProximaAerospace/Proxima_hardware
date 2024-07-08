@@ -37168,14 +37168,6 @@
 		(uuid "fea3d8b0-d4ae-424d-a12d-7d454b61d5f8")
 	)
 	(segment
-		(start 134.75 140.000001)
-		(end 134.749999 140)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 35)
-		(uuid "28f655e9-4461-407e-84dc-5093d8f8b1ec")
-	)
-	(segment
 		(start 165.153501 140.337501)
 		(end 165.153501 141.787498)
 		(width 0.5)
