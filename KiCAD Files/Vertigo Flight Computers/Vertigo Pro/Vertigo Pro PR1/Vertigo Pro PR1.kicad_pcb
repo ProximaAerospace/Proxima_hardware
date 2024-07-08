@@ -9,9 +9,9 @@
 	(paper "A4")
 	(title_block
 		(title "Vertigo Pro - Prototype 01")
-		(date "2024-06-27")
+		(date "2024-07-08")
 		(rev "DR1")
-		(company "Flower Space & B-SPACE")
+		(company "B-SPACE & Flower Space")
 		(comment 1 "Github: https://github.com/ProximaAerospace")
 		(comment 2 "Universal, Proxima Ready Flight Computer")
 		(comment 3 "Designed by Paweł Kwiatkowski - Flower Space 2024")
