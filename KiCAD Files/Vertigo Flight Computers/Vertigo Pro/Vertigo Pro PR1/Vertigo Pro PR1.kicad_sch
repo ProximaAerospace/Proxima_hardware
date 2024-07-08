@@ -28360,7 +28360,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 143.51 259.08 0)
 			(effects
 				(font
@@ -28821,22 +28821,22 @@
 		(dnp no)
 		(uuid "71b79665-6415-4194-a14f-3855c0db2789")
 		(property "Reference" "D6"
-			(at 435.61 300.99 0)
+			(at 435.61 299.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "LED"
-			(at 435.61 303.53 0)
+		(property "Value" "GPS LED"
+			(at 435.61 302.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 435.61 306.07 0)
 			(effects
 				(font
@@ -34060,7 +34060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 50.8 142.24 0)
 			(effects
 				(font
