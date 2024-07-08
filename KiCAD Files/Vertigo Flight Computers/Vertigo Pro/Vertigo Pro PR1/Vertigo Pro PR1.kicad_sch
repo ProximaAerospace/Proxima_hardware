@@ -15704,7 +15704,7 @@
 	)
 	(wire
 		(pts
-			(xy 534.67 288.29) (xy 539.75 288.29)
+			(xy 534.67 288.29) (xy 538.48 288.29)
 		)
 		(stroke
 			(width 0)
@@ -16654,7 +16654,7 @@
 	)
 	(wire
 		(pts
-			(xy 547.37 288.29) (xy 548.64 288.29)
+			(xy 546.1 288.29) (xy 548.64 288.29)
 		)
 		(stroke
 			(width 0)
@@ -19869,7 +19869,7 @@
 	)
 	(text "CDMC6D28NP-4R7MC"
 		(exclude_from_sim no)
-		(at 556.26 284.48 0)
+		(at 554.99 284.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -25188,7 +25188,7 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 543.56 288.29 90)
+		(at 542.29 288.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25197,7 +25197,7 @@
 		(fields_autoplaced yes)
 		(uuid "39870239-b624-483b-b564-4ccc81c2774f")
 		(property "Reference" "L1"
-			(at 543.56 283.21 90)
+			(at 542.29 283.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25205,7 +25205,7 @@
 			)
 		)
 		(property "Value" "4.7uH "
-			(at 543.56 285.75 90)
+			(at 542.29 285.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25213,7 +25213,7 @@
 			)
 		)
 		(property "Footprint" "Vertigo Pro KiCad Libraries:CDMC6D28NP-4R7MC"
-			(at 543.56 288.29 0)
+			(at 542.29 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25222,7 +25222,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 543.56 288.29 0)
+			(at 542.29 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25231,7 +25231,7 @@
 			)
 		)
 		(property "Description" "Inductor"
-			(at 543.56 288.29 0)
+			(at 542.29 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
