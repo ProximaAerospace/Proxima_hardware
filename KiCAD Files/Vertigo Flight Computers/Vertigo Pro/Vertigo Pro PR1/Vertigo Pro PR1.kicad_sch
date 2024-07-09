@@ -12549,6 +12549,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 182.88) (xy 91.44 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9a5e04-604e-48df-892f-f6e429cf0beb")
+	)
+	(wire
+		(pts
 			(xy 200.66 182.88) (xy 205.74 182.88)
 		)
 		(stroke
@@ -12846,6 +12856,16 @@
 			(type default)
 		)
 		(uuid "2b5915ac-363c-4e9f-8742-b6571ac8b47d")
+	)
+	(wire
+		(pts
+			(xy 85.09 205.74) (xy 91.44 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbd724b-c347-41ff-ac28-1e620612579d")
 	)
 	(wire
 		(pts
@@ -16329,6 +16349,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 208.28) (xy 54.61 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9bb3ec3-d87a-4cfa-9f83-fa21d659929c")
+	)
+	(wire
+		(pts
 			(xy 547.37 217.17) (xy 558.8 217.17)
 		)
 		(stroke
@@ -16336,6 +16366,16 @@
 			(type default)
 		)
 		(uuid "ba087360-870f-4313-a6e2-472e0eff677d")
+	)
+	(wire
+		(pts
+			(xy 85.09 208.28) (xy 90.17 208.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bad49bf6-feb4-4dad-ac08-2caa79005371")
 	)
 	(wire
 		(pts
@@ -17349,6 +17389,16 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 210.82) (xy 90.17 210.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d3867c-6037-4b2f-941a-ef85b772f842")
+	)
+	(wire
+		(pts
 			(xy 501.65 288.29) (xy 508 288.29)
 		)
 		(stroke
@@ -17516,6 +17566,16 @@
 			(type default)
 		)
 		(uuid "ec9bddda-e773-4046-ad1d-b1ddd6f25307")
+	)
+	(wire
+		(pts
+			(xy 85.09 213.36) (xy 88.9 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0d7484-18ff-4d4b-b60e-2d8332d889cf")
 	)
 	(wire
 		(pts
@@ -19380,7 +19440,7 @@
 		(uuid "02ca3f35-f630-410f-84b3-aab8f5237060")
 	)
 	(label "DVP_Y5"
-		(at 41.91 203.2 0)
+		(at 90.17 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19391,7 +19451,7 @@
 		(uuid "02d00ed4-6edb-4f60-b639-2a2036ae3c6b")
 	)
 	(label "DVP_HREF"
-		(at 41.91 190.5 0)
+		(at 91.44 182.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19545,7 +19605,7 @@
 		(uuid "2c41f675-2c68-4932-8abe-7ec51d1c858e")
 	)
 	(label "XMCLK"
-		(at 41.91 210.82 0)
+		(at 41.91 208.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19754,7 +19814,7 @@
 		(uuid "441d2eb9-d927-4057-b31b-9842bdf99a39")
 	)
 	(label "ESP_I2C_SCL"
-		(at 41.91 185.42 0)
+		(at 88.9 213.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19820,7 +19880,7 @@
 		(uuid "510b40eb-a840-4a2b-b36f-4e9cba2d10f1")
 	)
 	(label "DVP_VSYNC"
-		(at 41.91 187.96 0)
+		(at 90.17 210.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20524,7 +20584,7 @@
 		(uuid "c77c479a-4912-4a40-8b35-18f77658664d")
 	)
 	(label "ESP_I2C_SDA"
-		(at 41.91 182.88 0)
+		(at 91.44 205.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
