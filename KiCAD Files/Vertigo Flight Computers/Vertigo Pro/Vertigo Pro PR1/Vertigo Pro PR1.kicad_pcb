@@ -5099,6 +5099,115 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_Pad_D1.5mm"
+		(layer "F.Cu")
+		(uuid "5d4848de-23a0-45a7-a2bd-af70ca484515")
+		(at 127.6 83.8)
+		(descr "SMD pad as test Point, diameter 1.5mm")
+		(tags "test point SMD pad")
+		(property "Reference" "ALED_SIG"
+			(at 1 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "c46ff68d-4602-4ae2-bcb7-22978de8d474")
+			(effects
+				(font
+					(size 0.7 0.7)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint_Pad_D1.5mm"
+			(at 0 1.75 0)
+			(layer "F.Fab")
+			(uuid "a92a45a2-5dec-4b04-98ca-2aa0ab167763")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "519bd20d-a0fe-4feb-b34a-b1b1399c5380")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aa8dfc92-2b84-4ca8-8720-48ef07ee828d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a4e32487-ce2e-4bf7-aafe-c019ce99da23")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(attr exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 0 0.95)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "dcb84477-4942-4b82-950a-08cd8301921e")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 1.25 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "0c0a3e32-c714-450e-9f61-63be2318285c")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -1.65 0)
+			(layer "F.Fab")
+			(uuid "37aa059c-6ef2-4d35-bcc0-88251684f871")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" smd circle
+			(at 0 0)
+			(size 1.5 1.5)
+			(layers "F.Cu" "F.Mask")
+			(net 28 "Net-(D9-DIN)")
+			(uuid "76bdc4bf-b2fa-481c-af54-c6377471d2f5")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "678b82ca-0f2d-47b7-8c24-a2d490fc92f1")
@@ -38196,6 +38305,30 @@
 		(layer "B.Cu")
 		(net 27)
 		(uuid "fc754cbc-32dc-480a-8692-3e3e9b5f4f90")
+	)
+	(segment
+		(start 129.585697 85.598959)
+		(end 127.786738 83.8)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 28)
+		(uuid "1bbf7387-26f7-4509-96bf-0b7a6ee0b8e8")
+	)
+	(segment
+		(start 127.786738 83.8)
+		(end 127.6 83.8)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 28)
+		(uuid "900ab41f-ad91-4a93-9615-74ec9ed8b38c")
+	)
+	(segment
+		(start 129.772436 85.598959)
+		(end 129.585697 85.598959)
+		(width 0.25)
+		(layer "F.Cu")
+		(net 28)
+		(uuid "bb2521c2-bffd-46d0-b40a-061ca54dc6ef")
 	)
 	(segment
 		(start 142.505731 129.542985)
