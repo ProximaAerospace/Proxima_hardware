@@ -13209,7 +13209,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 248.92) (xy 327.66 248.92)
+			(xy 298.45 243.84) (xy 327.66 243.84)
 		)
 		(stroke
 			(width 0)
@@ -14029,7 +14029,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 252.73) (xy 360.68 252.73)
+			(xy 332.74 247.65) (xy 360.68 247.65)
 		)
 		(stroke
 			(width 0)
@@ -15219,7 +15219,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 252.73) (xy 327.66 252.73)
+			(xy 298.45 247.65) (xy 327.66 247.65)
 		)
 		(stroke
 			(width 0)
@@ -16179,7 +16179,7 @@
 	)
 	(wire
 		(pts
-			(xy 332.74 248.92) (xy 360.68 248.92)
+			(xy 332.74 243.84) (xy 360.68 243.84)
 		)
 		(stroke
 			(width 0)
@@ -19455,7 +19455,7 @@
 	)
 	(text "I2C Communication"
 		(exclude_from_sim no)
-		(at 346.71 245.11 0)
+		(at 346.71 240.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19476,7 +19476,7 @@
 	)
 	(text "UART Communication\n"
 		(exclude_from_sim no)
-		(at 313.69 245.11 0)
+		(at 313.69 240.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -19777,7 +19777,7 @@
 		(uuid "2dec8563-b6eb-488f-ba4f-23c62c135262")
 	)
 	(label "ESP_I2C_SDA"
-		(at 360.68 252.73 180)
+		(at 360.68 247.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -19953,7 +19953,7 @@
 		(uuid "432070b5-9ef2-46f6-896d-54c1fda53ee4")
 	)
 	(label "STM_UART_RX"
-		(at 327.66 252.73 180)
+		(at 327.66 247.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20085,7 +20085,7 @@
 		(uuid "5865d8b5-83a5-4487-9012-e2e84b7c9e6c")
 	)
 	(label "ESP_UART_TX"
-		(at 298.45 252.73 0)
+		(at 298.45 247.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20107,7 +20107,7 @@
 		(uuid "590475f0-f7da-4a76-acdf-3a8c8520c380")
 	)
 	(label "ESP_I2C_SCL"
-		(at 360.68 248.92 180)
+		(at 360.68 243.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20162,7 +20162,7 @@
 		(uuid "6203710d-ffba-4fe2-9ec9-b8f881a9dac5")
 	)
 	(label "STM_UART_TX"
-		(at 327.66 248.92 180)
+		(at 327.66 243.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20206,7 +20206,7 @@
 		(uuid "67ff573c-8a20-40b7-b20d-6584d3597bad")
 	)
 	(label "STM_I2C_SCL"
-		(at 332.74 248.92 0)
+		(at 332.74 243.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20217,7 +20217,7 @@
 		(uuid "6a6fe092-2c28-454e-9bed-d59498d76ca3")
 	)
 	(label "ESP_UART_RX"
-		(at 298.45 248.92 0)
+		(at 298.45 243.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -20558,7 +20558,7 @@
 		(uuid "b27313dd-4240-4be2-9e11-4450b0f2e1d3")
 	)
 	(label "STM_I2C_SDA"
-		(at 332.74 252.73 0)
+		(at 332.74 247.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
