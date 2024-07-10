@@ -11896,10 +11896,6 @@
 		(uuid "e646d8ca-f1e5-409d-aa30-5d0f4774a593")
 	)
 	(no_connect
-		(at 86.36 203.2)
-		(uuid "e84b6e0c-11ab-41ff-ae9b-9eb19f65848f")
-	)
-	(no_connect
 		(at 165.1 289.56)
 		(uuid "ea9d27a5-b10a-4e81-b57b-fdb9f9a47fd5")
 	)
@@ -13974,6 +13970,16 @@
 			(type default)
 		)
 		(uuid "4c6e0d30-292d-4ecc-bbd4-e9c26eaba4cb")
+	)
+	(wire
+		(pts
+			(xy 101.6 316.23) (xy 115.57 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cd41447-3e95-4d07-bb0e-3a7874b89103")
 	)
 	(wire
 		(pts
@@ -16317,7 +16323,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 203.2) (xy 85.09 203.2)
+			(xy 85.09 203.2) (xy 100.33 203.2)
 		)
 		(stroke
 			(width 0)
@@ -20275,6 +20281,17 @@
 		)
 		(uuid "59a5e0f3-58c0-4f7f-8a11-64c554b2c632")
 	)
+	(label "ESP_ALED"
+		(at 100.33 203.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5c58613b-e65f-4baf-bd33-24c006e5ac8d")
+	)
 	(label "STM_I2C_SDA"
 		(at 54.61 323.85 0)
 		(fields_autoplaced yes)
@@ -20593,6 +20610,17 @@
 			(justify left bottom)
 		)
 		(uuid "93154b7b-464d-4a00-8c07-e7463354639e")
+	)
+	(label "STM_ALED"
+		(at 115.57 316.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9357d1a3-41ea-4376-ac16-fba8fd86f9df")
 	)
 	(label "VDD_2V8"
 		(at 270.51 288.29 0)
