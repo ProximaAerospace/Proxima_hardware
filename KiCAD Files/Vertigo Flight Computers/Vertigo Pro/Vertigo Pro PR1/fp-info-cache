@@ -1,4 +1,4 @@
-23632884121628238
+23644928377506628
 ARDUINO_PRO_MINI
 MODULE_ARDUINO_PRO_MINI
 
@@ -96481,6 +96481,27 @@ SOP65P490X110-8N
 8
 8
 Vertigo Pro KiCad Libraries
+SOT-28FL-8_2P9X2P3_ONS
+
+ECH8697R-TL-W 
+0
+8
+8
+Vertigo Pro KiCad Libraries
+SOT-28FL-8_2P9X2P3_ONS-L
+
+ECH8697R-TL-W 
+0
+8
+8
+Vertigo Pro KiCad Libraries
+SOT-28FL-8_2P9X2P3_ONS-M
+
+ECH8697R-TL-W 
+0
+8
+8
+Vertigo Pro KiCad Libraries
 SOT95P280X145-5N
 
 
@@ -96508,6 +96529,34 @@ XTAL_TSX-3225_16.0000MF09Z-AC6
 0
 4
 4
+Vertigo Pro KiCad Libraries
+b-space_logo
+
+
+0
+0
+0
+Vertigo Pro KiCad Libraries
+b-space_logo_long
+
+
+0
+0
+0
+Vertigo Pro KiCad Libraries
+flower_space_logo
+
+
+0
+0
+0
+Vertigo Pro KiCad Libraries
+proxima_logo_simple_footprint
+
+
+0
+0
+0
 usini_sensors
 jack_3.5mm_TRRS
 Headphones with microphone connector, 3.5mm, 4 pins (http://www.qingpu-electronics.com/en/products/WQP-PJ320D-72.html)
