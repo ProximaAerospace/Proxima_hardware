@@ -13989,16 +13989,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 316.23) (xy 115.57 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cd41447-3e95-4d07-bb0e-3a7874b89103")
-	)
-	(wire
-		(pts
 			(xy 250.19 284.48) (xy 264.16 284.48)
 		)
 		(stroke
@@ -20401,17 +20391,6 @@
 			(justify left bottom)
 		)
 		(uuid "93154b7b-464d-4a00-8c07-e7463354639e")
-	)
-	(label "STM_ALED"
-		(at 115.57 316.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9357d1a3-41ea-4376-ac16-fba8fd86f9df")
 	)
 	(label "IGN_1"
 		(at 33.02 58.42 0)
