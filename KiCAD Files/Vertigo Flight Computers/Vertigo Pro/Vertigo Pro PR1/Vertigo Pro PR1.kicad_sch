@@ -11132,6 +11132,12 @@
 		(uuid "1715f4fe-51df-472c-aee1-3a65c8c0b830")
 	)
 	(junction
+		(at 440.69 251.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19c07e45-5e34-43fa-8a78-52fbd5a05a2b")
+	)
+	(junction
 		(at 171.45 270.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -15280,6 +15286,16 @@
 			(type default)
 		)
 		(uuid "8065b12e-680a-4d09-92c8-39e871413feb")
+	)
+	(wire
+		(pts
+			(xy 440.69 251.46) (xy 453.39 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80afcd43-01dd-4257-a66b-70995fb5af0b")
 	)
 	(wire
 		(pts
@@ -20546,6 +20562,17 @@
 			(justify left bottom)
 		)
 		(uuid "96891ad3-e975-4321-9f9c-7357e6a343ce")
+	)
+	(label "REG_3.3V"
+		(at 453.39 251.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "96ad5202-a678-4a97-8a09-0c6276f359eb")
 	)
 	(label "STM_I2C_SCL"
 		(at 166.37 185.42 0)
