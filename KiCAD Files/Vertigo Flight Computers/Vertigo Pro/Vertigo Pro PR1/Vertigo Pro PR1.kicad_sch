@@ -21216,29 +21216,6 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 445.77 318.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "311d7f30-143b-4fbc-91ff-da74022ee40c")
-		(property "Netclass" "RF"
-			(at 446.4685 316.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
 		(at 435.61 318.77 0)
 		(fields_autoplaced yes)
 		(effects
