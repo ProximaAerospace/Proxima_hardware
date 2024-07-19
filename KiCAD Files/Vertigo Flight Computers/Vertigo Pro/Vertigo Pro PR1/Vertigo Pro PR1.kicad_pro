@@ -58,22 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "solder_mask_bridge|147628006|116732412|412630c6-b05f-4a44-a3a1-690e050617c5|d42a5c66-da8f-4cbc-8007-080c23dbcc2c",
-        "solder_mask_bridge|147900000|134800000|c0d00833-f863-464c-8687-8647e5da1436|05f0e64f-8a02-4e01-9374-8c290e35c796",
-        "solder_mask_bridge|147981559|117085966|d42a5c66-da8f-4cbc-8007-080c23dbcc2c|c5073942-8a10-47e8-ad6c-b5368855cbb1",
-        "solder_mask_bridge|148771752|117607456|ddc6c59d-3c68-4cf9-bf59-af83829ae11d|463c0c80-5d96-4cb6-b236-17a571d31c81",
-        "solder_mask_bridge|149125305|117253903|463c0c80-5d96-4cb6-b236-17a571d31c81|496b2c8e-22ef-403d-82f7-d414cc39bffa",
-        "solder_mask_bridge|149293243|115403050|94d45672-38b8-486f-8f24-9a68c2d346bd|94677592-f5cc-4b19-b780-e5d855551cd2",
-        "solder_mask_bridge|149478859|116900350|496b2c8e-22ef-403d-82f7-d414cc39bffa|bac2040e-eeae-46b3-9b67-e1e2ae60576d",
-        "solder_mask_bridge|149646796|115756604|4eb64bef-ab8f-421d-ae51-a2f1e6d07488|94d45672-38b8-486f-8f24-9a68c2d346bd",
-        "solder_mask_bridge|149800000|135550000|4b534053-edc6-4c6f-a761-fd6eca161a95|1431e21d-38dd-4dc8-9641-238b76c5c29d",
-        "solder_mask_bridge|149832412|116546796|bac2040e-eeae-46b3-9b67-e1e2ae60576d|41ee8d25-cf53-4bc9-a60d-943859243c1f",
-        "solder_mask_bridge|158372500|94960000|2329332d-3803-484e-88d8-98286d3e46fb|e9a29eea-059d-42c4-9d8d-35bba3ae2970",
-        "solder_mask_bridge|159022500|94960000|c8433715-f445-4e7e-a371-d69c3b43fc8c|2329332d-3803-484e-88d8-98286d3e46fb",
-        "solder_mask_bridge|159672500|94960000|0efc6fb0-98e5-4f8b-825a-ff81f2373403|c8433715-f445-4e7e-a371-d69c3b43fc8c",
-        "solder_mask_bridge|167494750|148299999|d5f1d7f4-094b-4907-9354-2983a68cc628|625f88c5-6cc2-4336-b8cc-4e393c0ae8fa"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
