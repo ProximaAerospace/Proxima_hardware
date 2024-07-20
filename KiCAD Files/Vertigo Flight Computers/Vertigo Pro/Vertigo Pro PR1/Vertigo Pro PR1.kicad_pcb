@@ -8,9 +8,9 @@
 	)
 	(paper "A4")
 	(title_block
-		(title "Vertigo Pro - Prototype 01")
-		(date "2024-07-19")
-		(rev "DR1")
+		(title "Vertigo Pro - Prototype 1")
+		(date "2024-07-20")
+		(rev "DPR1")
 		(company "B-SPACE & Flower Space")
 		(comment 1 "Github: https://github.com/ProximaAerospace")
 		(comment 2 "Universal, Proxima Ready Flight Computer")
