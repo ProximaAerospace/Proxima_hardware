@@ -2096,7 +2096,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C19"
-			(at 0 -1.43 90)
+			(at -0.45 1.45 90)
 			(layer "F.SilkS")
 			(uuid "6f9959e9-4ca9-4498-8f28-037dc4d95cb7")
 			(effects
@@ -2945,7 +2945,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C16"
-			(at -0.1 1.5 -90)
+			(at 2.95 -0.1 -90)
 			(layer "F.SilkS")
 			(uuid "6c90ce31-4585-4a63-bf2c-554529b862b9")
 			(effects
@@ -3842,7 +3842,7 @@
 	(footprint "Vertigo Pro KiCad Libraries:flower_space_logo"
 		(layer "F.Cu")
 		(uuid "48c847be-5c44-44b9-9b40-98b33bf15ab8")
-		(at 132.8 76.7)
+		(at 132.9 77.8)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -9084,7 +9084,7 @@
 	(footprint "Vertigo Pro KiCad Libraries:b-space_logo_long"
 		(layer "F.Cu")
 		(uuid "a5ed670f-96dd-4d2b-b7a7-1c0d2c7510cb")
-		(at 132.7 72.4)
+		(at 132.8 73.5)
 		(property "Reference" "G***"
 			(at 0 0 0)
 			(layer "F.SilkS")
@@ -18619,8 +18619,8 @@
 			(uuid "19bf1a36-d4b6-4234-be1d-45cca28b8ec3")
 		)
 		(fp_circle
-			(center -2.41 1.05)
-			(end -2.31 1.05)
+			(center -1.25 2)
+			(end -1.15 2)
 			(stroke
 				(width 0.2)
 				(type solid)
@@ -22919,7 +22919,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C40"
-			(at 0 1.43 0)
+			(at -2.625 -0.05 90)
 			(layer "B.SilkS")
 			(uuid "d52508e7-3357-43e3-a68d-808bc9197fdf")
 			(effects
@@ -23138,7 +23138,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R10"
-			(at 2.45 0 180)
+			(at -3.3 0 -90)
 			(layer "B.SilkS")
 			(uuid "8a126107-9c76-4749-9952-2c03010f4ac7")
 			(effects
@@ -40522,7 +40522,7 @@
 		)
 	)
 	(gr_text "MuCU"
-		(at 151.2 113 0)
+		(at 151.125 112.94 0)
 		(layer "F.SilkS")
 		(uuid "8e18acd2-510c-4f8f-a5e7-4d6bf830f4ac")
 		(effects
@@ -40547,19 +40547,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "hello there :)"
-		(at 141.3 92.8 -0)
-		(layer "F.SilkS")
-		(uuid "a3dfbc01-a6e1-4dfb-ab85-49414a204a54")
-		(effects
-			(font
-				(size 0.4 0.4)
-				(thickness 0.08)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Vertigo Pro \nPrototype Dev Board\n"
 		(at 158.25 72.249999 0)
 		(layer "F.SilkS")
@@ -40573,17 +40560,17 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Designed by Proxima Team\n"
-		(at 126.725 70.775 0)
+	(gr_text "Designed by Proxima \nTeam\n"
+		(at 133.2 72.1 0)
 		(layer "F.SilkS")
 		(uuid "e0719a67-488b-4988-9c52-0746bca1af37")
 		(effects
 			(font
-				(size 0.6 0.6)
+				(size 0.8 0.8)
 				(thickness 0.12)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 	)
 	(gr_text "Channel 3\n"
