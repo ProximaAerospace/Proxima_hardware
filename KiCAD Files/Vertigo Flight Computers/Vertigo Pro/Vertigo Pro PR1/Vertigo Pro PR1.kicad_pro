@@ -739,6 +739,48 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER_PART_NUMBER",
+          "name": "MOUSER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER_PRICE-STOCK",
+          "name": "MOUSER_PRICE-STOCK",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_NAME",
+          "name": "MANUFACTURER_NAME",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER_PART_NUMBER",
+          "name": "MANUFACTURER_PART_NUMBER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DESCRIPTION",
+          "name": "DESCRIPTION",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "HEIGHT",
+          "name": "HEIGHT",
+          "show": false
         }
       ],
       "filter_string": "",
