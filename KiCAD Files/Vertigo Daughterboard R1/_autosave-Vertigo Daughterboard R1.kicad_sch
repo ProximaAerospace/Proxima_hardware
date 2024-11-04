@@ -6529,7 +6529,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4308e99a-2e1a-42b0-9b47-926db3dfb9e5")
-		(property "Reference" "U2"
+		(property "Reference" "IC2"
 			(at 176.53 49.53 0)
 			(effects
 				(font
@@ -6671,7 +6671,7 @@
 		(instances
 			(project "Vertigo Daughterboard R1"
 				(path "/977084ba-e079-48e5-b203-f42a9d0a2d2c"
-					(reference "U2")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -8434,7 +8434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddc08271-374f-448f-a541-30f2233ed378")
-		(property "Reference" "U1"
+		(property "Reference" "IC1"
 			(at 99.06 45.72 0)
 			(effects
 				(font
@@ -8602,7 +8602,7 @@
 		(instances
 			(project "Vertigo Daughterboard R1"
 				(path "/977084ba-e079-48e5-b203-f42a9d0a2d2c"
-					(reference "U1")
+					(reference "IC1")
 					(unit 1)
 				)
 			)
