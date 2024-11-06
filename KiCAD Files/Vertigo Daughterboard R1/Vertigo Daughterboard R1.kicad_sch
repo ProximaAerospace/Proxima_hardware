@@ -5944,6 +5944,17 @@
 		)
 		(uuid "460fc414-5e20-4069-92cf-3c2ce421dae1")
 	)
+	(text "zmienić"
+		(exclude_from_sim no)
+		(at 265.938 45.212 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "4f221562-4950-4b78-9a83-4b320b60cbb5")
+	)
 	(text "Sensors"
 		(exclude_from_sim no)
 		(at 29.21 107.95 0)
