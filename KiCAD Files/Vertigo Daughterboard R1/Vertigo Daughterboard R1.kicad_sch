@@ -5912,6 +5912,19 @@
 			"AABJRU5ErkJggg=="
 		)
 	)
+	(text "sprawdzić połączenie"
+		(exclude_from_sim no)
+		(at 45.466 75.184 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "1672af4b-34f8-42bc-8c0d-865c143c3c31")
+	)
 	(text "Caps as close as \npossible to IC"
 		(exclude_from_sim no)
 		(at 202.692 79.248 0)
